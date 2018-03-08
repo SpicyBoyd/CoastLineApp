@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.travel.coastline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".List" />
+        <activity android:name=".TanwenSpot" />
+        <activity android:name=".DashanSpot" />
+        <activity android:name=".HoulongFood" />
+        <activity android:name=".HoulongSpot" />
+        <activity android:name=".LonggangSpot" />
+        <activity android:name=".BaishatunFood" />
+        <activity android:name=".BaishatunSpot" />
+        <activity android:name=".XinpuSpot" />
+        <activity android:name=".TongxiaoFood" />
+        <activity android:name=".TongxiaoSpot" />
+        <activity android:name=".YuanliSpot" />
+        <activity android:name=".RinanSpot" />
+        <activity android:name=".DajiaSpot" />
+        <activity android:name=".TaichungPortSpot" />
+        <activity android:name=".QingshuiSpot" />
+        <activity android:name=".ShaluSpot" />
+        <activity android:name=".LongjingSpot" />
+        <activity android:name=".DaduFood" />
+        <activity android:name=".DaduSpot" />
+        <activity android:name=".ZhuifenSpot" />
+        <activity android:name=".ZhuifenFood" />
+        <activity android:name=".LongjingFood" />
+        <activity android:name=".ShaluFood" />
+        <activity android:name=".QingshuiFood" />
+        <activity android:name=".DajiaFood" />
+        <activity android:name=".YuanliFood" />
+        <activity android:name=".YuanliFood1" />
+        <activity android:name=".TongxiaoFood1" />
+        <activity android:name=".BaishatunStation" />
+        <activity android:name=".Gongtiangong" />
+        <activity android:name=".BaishatunBeach" />
+        <activity android:name=".BaishatunBeachpics" />
+        <activity android:name=".DaduSpot1" />
+        <activity android:name=".DaduSpot2" />
+        <activity android:name=".DaduSpot3" />
+        <activity android:name=".DaduSpot4" />
+        <activity android:name=".DaduSpot5" />
+        <activity android:name=".DaduSpot6" />
+        <activity android:name=".DajiaSpot1" />
+        <activity android:name=".DajiaSpot2" />
+        <activity android:name=".DajiaSpot3" />
+        <activity android:name=".DajiaSpot4" />
+        <activity android:name=".DajiaSpot5" />
+        <activity android:name=".DajiaSpot6" />
+        <activity android:name=".DashanSpot1" />
+        <activity android:name=".HoulongSpot1" />
+        <activity android:name=".LonggangSpot1" />
+        <activity android:name=".LonggangSpot2" />
+        <activity android:name=".LonggangSpot3" />
+        <activity android:name=".LonggangSpot4" />
+        <activity android:name=".LonggangSpot5" />
+        <activity android:name=".LonggangSpot6" />
+        <activity android:name=".LonggangSpot7" />
+        <activity android:name=".LongjingSpot1" />
+        <activity android:name=".LongjingSpot2" />
+        <activity android:name=".LongjingSpot3" />
+        <activity android:name=".LongjingSpot4" />
+        <activity android:name=".RinanSpot1" />
+        <activity android:name=".RinanSpot2" />
+        <activity android:name=".ShaluSpot1" />
+        <activity android:name=".ShaluSpot2" />
+        <activity android:name=".ShaluSpot3" />
+        <activity android:name=".TaichungPortSpot1" />
+        <activity android:name=".TanwenSpot1" />
+        <activity android:name=".TanwenSpot2" />
+        <activity android:name=".ZhuifenSpot1" />
+        <activity android:name=".ZhuifenSpot2" />
+        <activity android:name=".XinpuSpot1" />
+        <activity android:name=".XinpuSpot2" />
+        <activity android:name=".XinpuSpot3" />
+        <activity android:name=".TongxiaoSpot1" />
+        <activity android:name=".TongxiaoSpot2" />
+        <activity android:name=".TongxiaoSpot3" />
+        <activity android:name=".TongxiaoSpot4" />
+        <activity android:name=".TongxiaoSpot5" />
+        <activity android:name=".YuanliSpot1" />
+        <activity android:name=".YuanliSpot2" />
+        <activity android:name=".YuanliSpot3" />
+        <activity android:name=".YuanliSpot4" />
+        <activity android:name=".YuanliSpot5" />
+        <activity android:name=".YuanliSpot6" />
+        <activity android:name=".QingshuiSpot1" />
+        <activity android:name=".QingshuiSpot2" />
+        <activity android:name=".QingshuiSpot3" />
+        <activity android:name=".QingshuiSpot4" />
+        <activity android:name=".QingshuiSpot5" />
+        <activity android:name=".QingshuiSpot6" />
+        <activity android:name=".QingshuiSpot7" />
+        <activity android:name=".QingshuiSpot8" />
+        <activity android:name=".QingshuiSpot9" />
+        <activity android:name=".QingshuiSpot10"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "475257565577",
+    "firebase_url": "https://coastline-160607.firebaseio.com",
+    "project_id": "coastline-160607",
+    "storage_bucket": "coastline-160607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475257565577:android:2f1bd956b2c6edf7",
+        "android_client_info": {
+          "package_name": "com.travel.coastline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475257565577-fmg1q3eb5qjtarma47kc647oghko6sea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7aGNrXw20gbbI0DoW43_NbgQdDy55f7Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
