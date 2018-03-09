@@ -6,17 +6,23 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/coastline_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
         <activity android:name=".List" />
         <activity android:name=".TanwenSpot" />
         <activity android:name=".DashanSpot" />
@@ -49,7 +55,6 @@
         <activity android:name=".BaishatunStation" />
         <activity android:name=".Gongtiangong" />
         <activity android:name=".BaishatunBeach" />
-        <activity android:name=".BaishatunBeachpics" />
         <activity android:name=".DaduSpot1" />
         <activity android:name=".DaduSpot2" />
         <activity android:name=".DaduSpot3" />
@@ -108,7 +113,7 @@
         <activity android:name=".QingshuiSpot7" />
         <activity android:name=".QingshuiSpot8" />
         <activity android:name=".QingshuiSpot9" />
-        <activity android:name=".QingshuiSpot10"></activity>
+        <activity android:name=".QingshuiSpot10" />
     </application>
 
 </manifest>
