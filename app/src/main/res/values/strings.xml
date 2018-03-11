@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">海線車站旅遊札記</string>
 
+    <string name="welcome_pic">歡迎畫面_日南車站</string>
+    <string name="welcome_text1">海線車站</string>
+    <string name="welcome_text2">旅遊札記</string>
+
+    <string name="mainactiviy_miaoli_pic">苗栗</string>
+    <string name="mainactiviy_taichung_pic">台中</string>
+
 </resources>
