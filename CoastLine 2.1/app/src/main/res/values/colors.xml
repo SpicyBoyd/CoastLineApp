@@ -5,6 +5,7 @@
     <color name="colorAccent">#448AFF</color>
 
     <color name="mainActivityBackgroundColor">#bbdefb</color>
+    <color name="white">#FFF</color>
 
     <color name="black_overlay">#66000000</color>
 </resources>

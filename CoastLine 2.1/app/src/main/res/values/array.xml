@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="taichung_station">
+        <item>追分車站</item>
+        <item>大肚車站</item>
+        <item>龍井車站</item>
+        <item>沙鹿車站</item>
+        <item>清水車站</item>
+        <item>台中港車站</item>
+        <item>大甲車站</item>
+        <item>日南車站</item>
+    </string-array>
+
+    <string-array name="miaoli_station">
+        <item>苑裡車站</item>
+        <item>通霄車站</item>
+        <item>新埔車站</item>
+        <item>白沙屯車站</item>
+        <item>龍港車站</item>
+        <item>後龍車站</item>
+        <item>大山車站</item>
+        <item>談文車站</item>
+    </string-array>
+</resources>
