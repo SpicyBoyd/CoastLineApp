@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">CoastLine 2.0</string>
+    <string name="app_name">海線車站旅遊札記</string>
+
+    <string name="description">必填欄位</string>
+    <string name="welcome_text1">海線車站</string>
+    <string name="welcome_text2">旅遊札記</string>
+
+    <string name="mainactiviy_miaoli_pic">苗栗</string>
+    <string name="mainactiviy_taichung_pic">台中</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
 </resources>
