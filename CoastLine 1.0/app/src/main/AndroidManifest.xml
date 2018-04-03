@@ -17,12 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-
+        <activity android:name=".MainActivity" />
         <activity android:name=".List" />
         <activity android:name=".TanwenSpot" />
         <activity android:name=".DashanSpot" />
@@ -114,6 +109,8 @@
         <activity android:name=".QingshuiSpot8" />
         <activity android:name=".QingshuiSpot9" />
         <activity android:name=".QingshuiSpot10" />
+        <activity android:name=".TaichungList" />
+        <activity android:name=".MiaoliList"></activity>
     </application>
 
 </manifest>

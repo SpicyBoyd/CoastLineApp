@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.travel.coastline.List">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/gradient_1"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="#FF9800"
+            android:text="苗 栗"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#212121"
+            android:text="談文車站"
+            android:paddingRight="21dp"
+            android:paddingLeft="21dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Tanwen"
+            android:background="@drawable/gradient_1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#212121"
+            android:text="大山車站"
+            android:paddingRight="21dp"
+            android:paddingLeft="21dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Dashan"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#212121"
+            android:text="後龍車站"
+            android:paddingRight="21dp"
+            android:paddingLeft="21dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Houlong"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#212121"
+            android:paddingRight="21dp"
+            android:paddingLeft="21dp"
+            android:text="龍港車站"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Longgang"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:textColor="#212121"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="白沙屯車站"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Baishatun"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#212121"
+            android:text="新埔車站"
+            android:paddingRight="21dp"
+            android:paddingLeft="21dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Xinpu"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#212121"
+            android:text="通霄車站"
+            android:paddingRight="21dp"
+            android:paddingLeft="21dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Tongxiao"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#212121"
+            android:text="苑裡車站"
+            android:paddingRight="21dp"
+            android:paddingLeft="21dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Yuanli"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/gradient_2"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/miaoli_list"/>
+
+    </LinearLayout>
+
+</LinearLayout>
