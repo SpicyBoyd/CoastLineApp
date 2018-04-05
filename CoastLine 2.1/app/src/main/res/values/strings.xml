@@ -7,13 +7,7 @@
 
     <string name="miaoli">苗栗</string>
     <string name="taichung">台中</string>
-
-    <string name="title_activity_welcome">WelcomeActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_area">AreaActivity</string>
-
+    <string name="home">首頁</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>
