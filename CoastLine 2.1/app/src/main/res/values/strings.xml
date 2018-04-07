@@ -1,13 +1,14 @@
 <resources>
     <string name="app_name">海線車站旅遊札記</string>
-
-    <string name="description">必填欄位</string>
-    <string name="welcome_text1">海線車站</string>
-    <string name="welcome_text2">旅遊札記</string>
-
     <string name="miaoli">苗栗</string>
     <string name="taichung">台中</string>
     <string name="home">首頁</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="cancel">取消</string>
+    <string name="submit">確定</string>
+
+    <!--activity_welcome-->
+    <string name="welcome_text1">海線車站</string>
+    <string name="welcome_text2">旅遊札記</string>
 </resources>

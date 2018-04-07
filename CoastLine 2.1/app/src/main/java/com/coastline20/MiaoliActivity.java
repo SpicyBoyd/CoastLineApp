@@ -1,39 +1,28 @@
 package com.coastline20;
 
+import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
+import android.view.MenuItem;
 import android.widget.NumberPicker;
 import android.support.v7.widget.Toolbar;
 
 public class MiaoliActivity extends AppCompatActivity {
     private NumberPicker numberPicker;
-    private ImageView imageView;
     private NavigationView navigationView;
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
 
     void init() {
         numberPicker = (NumberPicker) findViewById(R.id.picker);
-        imageView = (ImageView) findViewById(R.id.areaImage);
-        navigationView = (NavigationView) findViewById(R.id.nav_view);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(true);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
-        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this,
-                drawerLayout, toolbar, R.string.open, R.string.close) {
-            @Override
-            public void onDrawerOpened(View drawerView) {
-                super.onDrawerOpened(drawerView);
-            }
-        };
-        actionBarDrawerToggle.syncState();
-        drawerLayout.setDrawerListener(actionBarDrawerToggle);
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
     }
 
     @Override
@@ -42,12 +31,41 @@ public class MiaoliActivity extends AppCompatActivity {
         setContentView(R.layout.activity_miaoli);
         init();
 
-        imageView.setImageResource(R.drawable.area_miaoli);
+        // 設定 toolbar
+        setSupportActionBar(toolbar);
+        // 設定 navigation drawer
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                // 點選時收起選單
+                drawerLayout.closeDrawer(GravityCompat.START);
 
-        final String[] miaoliStation = getResources().getStringArray(R.array.miaoli_station);
+                // 依照id判斷點了哪個項目並做相應事件
+                int id = item.getItemId();
+                if (id == R.id.home) {
+                    Intent intent = new Intent().setClass(MiaoliActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    return true;
+                }
+                if (id == R.id.taichung) {
+                    Intent intent = new Intent().setClass(MiaoliActivity.this, TaichungActivity.class);
+                    startActivity(intent);
+                    return true;
+                }
+                return false;
+            }
+        });
+        // 將drawerLayout和toolbar整合
+        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this,
+                drawerLayout, toolbar, R.string.open, R.string.close);
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+
+        // 主畫面
+        final String[] stations = getResources().getStringArray(R.array.miaoli_stations);
         numberPicker.setMinValue(0);
-        numberPicker.setMaxValue(miaoliStation.length - 1);
-        numberPicker.setDisplayedValues(miaoliStation);
+        numberPicker.setMaxValue(stations.length - 1);
+        numberPicker.setDisplayedValues(stations);
         numberPicker.setValue(3); // 設定預設位置
         numberPicker.setWrapSelectorWheel(false); // 是否循環顯示
         numberPicker.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS); // 不可編輯

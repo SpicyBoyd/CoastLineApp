@@ -3,13 +3,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/home"
-            android:icon="@mipmap/ic_menu_home"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_home"
             android:title="@string/home" />
         <item
             android:id="@+id/miaoli"
-            android:title="@string/miaoli"/>
+            android:icon="@drawable/ic_label_outline_black_24dp"
+            android:title="@string/miaoli" />
         <item
             android:id="@+id/taichung"
-            android:title="@string/taichung"/>
+            android:icon="@drawable/ic_label_outline_black_24dp"
+            android:title="@string/taichung" />
     </group>
 </menu>

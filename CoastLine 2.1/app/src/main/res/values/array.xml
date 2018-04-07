@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="taichung_station">
+    <string-array name="taichung_stations">
         <item>追分車站</item>
         <item>大肚車站</item>
         <item>龍井車站</item>
@@ -11,7 +11,7 @@
         <item>日南車站</item>
     </string-array>
 
-    <string-array name="miaoli_station">
+    <string-array name="miaoli_stations">
         <item>苑裡車站</item>
         <item>通霄車站</item>
         <item>新埔車站</item>

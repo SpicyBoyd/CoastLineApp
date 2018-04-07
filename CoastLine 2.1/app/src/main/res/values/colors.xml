@@ -3,9 +3,11 @@
     <color name="colorPrimary">#2196F3</color>
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorAccent">#448AFF</color>
-
     <color name="colorLight">#bbdefb</color>
-    <color name="white">#FFF</color>
+
+    <!--activity_welcome-->
+    <color name="welcome_text1">#e254ff</color>
+    <color name="welcome_text2">#aa00ff</color>
 
     <color name="black_overlay">#66000000</color>
 </resources>

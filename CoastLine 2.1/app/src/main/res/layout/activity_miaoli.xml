@@ -18,15 +18,17 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/AppTheme.ToolBar" />
 
         <ImageView
-            android:id="@+id/areaImage"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:contentDescription="@string/description"
-            android:scaleType="centerCrop" />
+            android:contentDescription="@string/miaoli"
+            android:scaleType="centerCrop"
+            android:src="@drawable/miaoli_stations" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:background="@null"
-                    android:text="取消"
+                    android:text="@string/cancel"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
 
                 <Button
@@ -54,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:background="@null"
-                    android:text="確定"
+                    android:text="@string/submit"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
             </RelativeLayout>
 
@@ -74,10 +76,12 @@
     <!--headerLayout：於最上方加入圖片-->
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
+        android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:menu="@menu/activity_miaoli_menu" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:headerLayout="@layout/header_area"
+        app:menu="@menu/area_menu" />
 
 </android.support.v4.widget.DrawerLayout>

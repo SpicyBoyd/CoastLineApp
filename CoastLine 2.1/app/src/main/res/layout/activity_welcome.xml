@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:src="@drawable/welcome_image"
         android:scaleType="centerCrop"
-        android:contentDescription="@string/description" />
+        android:contentDescription="@string/app_name" />
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -34,7 +34,7 @@
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp"
                 android:text="@string/welcome_text1"
-                android:textColor="#e254ff"
+                android:textColor="@color/welcome_text1"
                 android:textSize="36sp"
                 android:textStyle="bold" />
 
@@ -49,7 +49,7 @@
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp"
                 android:text="@string/welcome_text2"
-                android:textColor="#aa00ff"
+                android:textColor="@color/welcome_text2"
                 android:textSize="36sp"
                 android:textStyle="bold" />
 

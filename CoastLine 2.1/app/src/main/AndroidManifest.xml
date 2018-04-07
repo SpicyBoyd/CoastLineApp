@@ -22,8 +22,8 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.ActionBar" />
-        <activity android:name=".TaichungActivity" />
         <activity android:name=".MiaoliActivity" />
+        <activity android:name=".TaichungActivity" />
     </application>
 
 </manifest>
