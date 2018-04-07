@@ -27,5 +27,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 finish();
             }
         }, 3000);
+
+        // 擴充功能：點擊跳轉
     }
 }

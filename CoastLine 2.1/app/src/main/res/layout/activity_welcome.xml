@@ -3,17 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:fitsSystemWindows="true"
     tools:context=".WelcomeActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
     <ImageView
-        android:id="@+id/welcome_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/welcome_pic"
+        android:src="@drawable/welcome_image"
         android:scaleType="centerCrop"
         android:contentDescription="@string/description" />
 
@@ -33,8 +32,6 @@
                 android:ems="1"
                 android:gravity="center"
                 android:paddingBottom="5dp"
-                android:paddingEnd="5dp"
-                android:paddingStart="5dp"
                 android:paddingTop="5dp"
                 android:text="@string/welcome_text1"
                 android:textColor="#e254ff"
@@ -50,8 +47,6 @@
                 android:ems="1"
                 android:gravity="center"
                 android:paddingBottom="5dp"
-                android:paddingEnd="5dp"
-                android:paddingStart="5dp"
                 android:paddingTop="5dp"
                 android:text="@string/welcome_text2"
                 android:textColor="#aa00ff"
