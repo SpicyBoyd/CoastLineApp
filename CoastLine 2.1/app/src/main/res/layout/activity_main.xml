@@ -8,7 +8,6 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/miaoliImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginEnd="15dp"
@@ -18,10 +17,9 @@
         android:contentDescription="@string/miaoli"
         android:onClick="miaoliClick"
         android:scaleType="fitCenter"
-        android:src="@drawable/mainactiviy_miaoli" />
+        android:src="@drawable/miaoli_btn" />
 
     <ImageButton
-        android:id="@+id/taichungImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="15dp"
@@ -31,6 +29,6 @@
         android:contentDescription="@string/taichung"
         android:onClick="taichungClick"
         android:scaleType="fitCenter"
-        android:src="@drawable/mainactiviy_taichung" />
+        android:src="@drawable/taichung_btn" />
 
 </LinearLayout>
