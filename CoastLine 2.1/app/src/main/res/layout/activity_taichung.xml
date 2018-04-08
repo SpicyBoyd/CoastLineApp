@@ -48,6 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:background="@null"
+                    android:onClick="cancelAction"
                     android:text="@string/cancel"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -57,6 +58,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:background="@null"
+                    android:onClick="submitAction"
                     android:text="@string/submit"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
             </RelativeLayout>

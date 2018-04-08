@@ -22,6 +22,7 @@
         <item>苑裡車站</item>
     </string-array>
 
+    <!--苗栗車站-->
     <string-array name="tanwen_spot_name">
         <item>談文車站</item>
         <item>鄭漢紀念碑</item>
@@ -34,10 +35,10 @@
         <item>木造車站</item>
         <item>眺望中港溪畔的農田</item>
     </string-array>
-    <integer-array name="tanwen_spot_image">
-        <item>@drawable/tanwenspot1</item>
-        <item>@drawable/tanwenspot2</item>
-    </integer-array>
+    <string-array name="tanwen_spot_activity">
+        <item>Tanwen1Activity</item>
+        <item>Tanwen2Activity</item>
+    </string-array>
 
     <string-array name="dashan_spot_name">
         <item>大山車站</item>
@@ -48,6 +49,9 @@
     <string-array name="dashan_spot_info">
         <item>木造車站</item>
     </string-array>
+    <string-array name="dashan_spot_activity">
+        <item>Dashan1Activity</item>
+    </string-array>
 
     <string-array name="houlong_spot_name">
         <item>後龍車站</item>
@@ -57,6 +61,9 @@
     </string-array>
     <string-array name="houlong_spot_info">
         <item>高架路線車站</item>
+    </string-array>
+    <string-array name="houlong_spot_activity">
+        <item>Houlong1Activity</item>
     </string-array>
 
     <string-array name="longgang_spot_name">
@@ -86,6 +93,15 @@
         <item>純白風車、湛藍海景、還有一道彩虹</item>
         <item>鐵路懷舊隧道</item>
     </string-array>
+    <string-array name="longgang_spot_activity">
+        <item>Longgang1Activity</item>
+        <item>Longgang2Activity</item>
+        <item>Longgang3Activity</item>
+        <item>Longgang4Activity</item>
+        <item>Longgang5Activity</item>
+        <item>Longgang6Activity</item>
+        <item>Longgang7Activity</item>
+    </string-array>
 
     <string-array name="baishatun_spot_name">
         <item>白沙屯車站</item>
@@ -102,12 +118,17 @@
         <item>媽祖廟</item>
         <item>有海、有沙、有風車</item>
     </string-array>
+    <string-array name="baishatun_spot_activity">
+        <item>Baishatun1Activity</item>
+        <item>Baishatun2Activity</item>
+        <item>Baishatun3Activity</item>
+    </string-array>
 
     <string-array name="xinpu_spot_name">
-    <item>新埔車站</item>
-    <item>新埔海邊</item>
-    <item>秋茂園</item>
-</string-array>
+        <item>新埔車站</item>
+        <item>新埔海邊</item>
+        <item>秋茂園</item>
+    </string-array>
     <string-array name="xinpu_spot_rate">
         <item>★★★☆☆</item>
         <item>★★★★★</item>
@@ -117,6 +138,11 @@
         <item>距離海岸最近的車站</item>
         <item>漸層海浪，陰陽海</item>
         <item>人物、動物的塑像</item>
+    </string-array>
+    <string-array name="xinpu_spot_activity">
+        <item>Xinpu1Activity</item>
+        <item>Xinpu2Activity</item>
+        <item>Xinpu3Activity</item>
     </string-array>
 
     <string-array name="tongxiao_spot_name">
@@ -139,6 +165,13 @@
         <item>感受海岸的美麗、山景的壯麗</item>
         <item>不只鹹，還有深度</item>
         <item>需要入場券</item>
+    </string-array>
+    <string-array name="tongxiao_spot_activity">
+        <item>Tongxiao1Activity</item>
+        <item>Tongxiao2Activity</item>
+        <item>Tongxiao3Activity</item>
+        <item>Tongxiao4Activity</item>
+        <item>Tongxiao5Activity</item>
     </string-array>
 
     <string-array name="yuanli_spot_name">
@@ -165,5 +198,221 @@
         <item>紀錄過去的繁華</item>
         <item>古裝劇拍攝場景</item>
     </string-array>
+    <string-array name="yuanli_spot_activity">
+        <item>Yuanli1Activity</item>
+        <item>Yuanli2Activity</item>
+        <item>Yuanli3Activity</item>
+        <item>Yuanli4Activity</item>
+        <item>Yuanli5Activity</item>
+        <item>Yuanli6Activity</item>
+    </string-array>
 
+    <!--台中車站-->
+    <string-array name="rinan_spot_name">
+        <item>日南車站</item>
+        <item>九張犁庄休閒步道</item>
+    </string-array>
+    <string-array name="rinan_spot_rate">
+        <item>★★★★★</item>
+        <item>★★★☆☆</item>
+    </string-array>
+    <string-array name="rinan_spot_info">
+        <item>木造車站</item>
+        <item>一邊散步、一邊做體操</item>
+    </string-array>
+    <string-array name="rinan_spot_activity">
+        <item>Rinan1Activity</item>
+        <item>Rinan2Activity</item>
+    </string-array>
+
+    <string-array name="dajia_spot_name">
+        <item>大甲車站</item>
+        <item>鎮瀾宮</item>
+        <item>林氏貞孝坊</item>
+        <item>大甲文昌祠</item>
+        <item>鐵砧山</item>
+        <item>裕珍馨</item>
+    </string-array>
+    <string-array name="dajia_spot_rate">
+        <item>★★★★☆</item>
+        <item>★★★★★</item>
+        <item>★★☆☆☆</item>
+        <item>★★★☆☆</item>
+        <item>★★★★☆</item>
+        <item>★★★☆☆</item>
+    </string-array>
+    <string-array name="dajia_spot_info">
+        <item>海線第一大站</item>
+        <item>臺灣著名的媽祖廟</item>
+        <item>國家三級古蹟</item>
+        <item>大甲最早的學校</item>
+        <item>劍井、忠烈祠、延平郡王像</item>
+        <item>奶油酥餅</item>
+    </string-array>
+    <string-array name="dajia_spot_activity">
+        <item>Dajia1Activity</item>
+        <item>Dajia2Activity</item>
+        <item>Dajia3Activity</item>
+        <item>Dajia4Activity</item>
+        <item>Dajia5Activity</item>
+        <item>Dajia6Activity</item>
+    </string-array>
+
+    <string-array name="taichung_port_spot_name">
+        <item>臺中港車站</item>
+    </string-array>
+    <string-array name="taichung_port_spot_rate">
+        <item>★☆☆☆☆</item>
+    </string-array>
+    <string-array name="taichung_port_spot_info">
+        <item>離臺中港甚遠</item>
+    </string-array>
+    <string-array name="taichung_port_spot_activity">
+        <item>TaichungPort1Activity</item>
+    </string-array>
+
+    <string-array name="qingshui_spot_name">
+        <item>清水車站</item>
+        <item>日式員工宿舍</item>
+        <item>港區藝術中心</item>
+        <item>清水眷村文化園區</item>
+        <item>高美溼地</item>
+        <item>清水國小</item>
+        <item>趙家古厝</item>
+        <item>鰲峰山公園</item>
+        <item>清水鬼洞</item>
+        <item>牛罵頭遺址</item>
+    </string-array>
+    <string-array name="qingshui_spot_rate">
+        <item>★★☆☆☆</item>
+        <item>★☆☆☆☆</item>
+        <item>★★★★☆</item>
+        <item>★★★☆☆</item>
+        <item>★★★★★</item>
+        <item>★★☆☆☆</item>
+        <item>★★★★☆</item>
+        <item>★★★★☆</item>
+        <item>★★☆☆☆</item>
+        <item>★★☆☆☆</item>
+    </string-array>
+    <string-array name="qingshui_spot_info">
+        <item>震災復興新式車站</item>
+        <item>清水車站旁</item>
+        <item>古樸典雅的藝術中心</item>
+        <item>認識眷村文化</item>
+        <item>風車、木棧道、高美燈塔</item>
+        <item>市定古蹟</item>
+        <item>夏季賞荷勝地</item>
+        <item>親子玩耍、民眾休閒的好去處</item>
+        <item>日治時代的軍備地道</item>
+        <item>考古遺址</item>
+    </string-array>
+    <string-array name="qingshui_spot_activity">
+        <item>Qingshui1Activity</item>
+        <item>Qingshui2Activity</item>
+        <item>Qingshui3Activity</item>
+        <item>Qingshui4Activity</item>
+        <item>Qingshui5Activity</item>
+        <item>Qingshui6Activity</item>
+        <item>Qingshui7Activity</item>
+        <item>Qingshui8Activity</item>
+        <item>Qingshui9Activity</item>
+        <item>Qingshui10Activity</item>
+    </string-array>
+
+    <string-array name="shalu_spot_name">
+        <item>沙鹿車站</item>
+        <item>美仁里彩繪村</item>
+        <item>四平老街</item>
+    </string-array>
+    <string-array name="shalu_spot_rate">
+        <item>★★★☆☆</item>
+        <item>★★★★★</item>
+        <item>★★★☆☆</item>
+    </string-array>
+    <string-array name="shalu_spot_info">
+        <item> </item>
+        <item>純粹以老台灣的畫作呈現</item>
+        <item>沙鹿的著名老街</item>
+    </string-array>
+    <string-array name="shalu_spot_activity">
+        <item>Shalu1Activity</item>
+        <item>Shalu2Activity</item>
+        <item>Shalu3Activity</item>
+    </string-array>
+
+    <string-array name="longjing_spot_name">
+        <item>龍井車站</item>
+        <item>龍目井</item>
+        <item>麗水漁港</item>
+        <item>藝術街</item>
+    </string-array>
+    <string-array name="longjing_spot_rate">
+        <item>★★★☆☆</item>
+        <item>★★☆☆☆</item>
+        <item>★★★★★</item>
+        <item>★★★★★</item>
+    </string-array>
+    <string-array name="longjing_spot_info">
+        <item>別具特色的車站造型</item>
+        <item>龍泉岩前的古蹟</item>
+        <item>地中海藍白特色建築</item>
+        <item>集人文、藝術景觀和社區意識之大成</item>
+    </string-array>
+    <string-array name="longjing_spot_activity">
+        <item>Longjing1Activity</item>
+        <item>Longjing2Activity</item>
+        <item>Longjing3Activity</item>
+        <item>Longjing4Activity</item>
+    </string-array>
+
+    <string-array name="dadu_spot_name">
+        <item>大肚車站</item>
+        <item>磺溪書院</item>
+        <item>望高寮</item>
+        <item>環保運動公園</item>
+        <item>瑞井社區</item>
+        <item>萬里長城步道</item>
+    </string-array>
+    <string-array name="dadu_spot_rate">
+        <item>★★☆☆☆</item>
+        <item>★★★★☆"</item>
+        <item>★★★★★</item>
+        <item>★★★☆☆</item>
+        <item>★★☆☆☆</item>
+        <item>★★☆☆☆</item>
+    </string-array>
+    <string-array name="dadu_spot_info">
+        <item>紀念車票-大肚成功</item>
+        <item>三級古蹟，文昌廟</item>
+        <item>觀賞夜景的地點</item>
+        <item> </item>
+        <item>以瑞井古井命名的村莊</item>
+        <item>郊山等級的步道</item>
+    </string-array>
+    <string-array name="dadu_spot_activity">
+        <item>Dadu1Activity</item>
+        <item>Dadu2Activity</item>
+        <item>Dadu3Activity</item>
+        <item>Dadu4Activity</item>
+        <item>Dadu5Activity</item>
+        <item>Dadu6Activity</item>
+    </string-array>
+
+    <string-array name="zhuifen_spot_name">
+        <item>追分車站</item>
+        <item>追分許願池</item>
+    </string-array>
+    <string-array name="zhuifen_spot_rate">
+        <item>★★★★★</item>
+        <item>★★★☆☆</item>
+    </string-array>
+    <string-array name="zhuifen_spot_info">
+        <item>紀念車票，追分－成功</item>
+        <item>追分成功、成功追婚</item>
+    </string-array>
+    <string-array name="zhuifen_spot_activity">
+        <item>Zhuifen1Activity</item>
+        <item>Zhuifen2Activity</item>
+    </string-array>
 </resources>
