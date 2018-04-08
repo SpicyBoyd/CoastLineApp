@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
@@ -14,16 +15,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StationFragment extends Fragment {
-    private String[] names, rates, infos;
+    private String[] names, rates, infos, activities;
     private int[] images;
 
     // TODO: Rename and change types and number of parameters
-    public static StationFragment newInstance(String[] names, String[] rates, String[] infos, int[] images) {
+    public static StationFragment newInstance(String[] names, String[] rates, String[] infos,
+                                              String[] activities, int[] images) {
         StationFragment fragment = new StationFragment();
         Bundle args = new Bundle();
         args.putStringArray("name", names);
         args.putStringArray("rate", rates);
         args.putStringArray("info", infos);
+        args.putStringArray("activity", activities);
         args.putIntArray("image", images);
         fragment.setArguments(args);
         return fragment;
@@ -36,6 +39,7 @@ public class StationFragment extends Fragment {
             names = getArguments().getStringArray("name");
             rates = getArguments().getStringArray("rate");
             infos = getArguments().getStringArray("info");
+            activities = getArguments().getStringArray("activity");
             images = getArguments().getIntArray("image");
         }
     }
@@ -52,8 +56,9 @@ public class StationFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
+        DividerItemDecoration itemDecor = new DividerItemDecoration(view.getContext(), DividerItemDecoration.VERTICAL);
+        recyclerView.addItemDecoration(itemDecor);
         recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL));
-        recyclerView.setAdapter(new SpotAdapter(this.getContext(), names, rates, infos, images));
+        recyclerView.setAdapter(new SpotAdapter(this.getContext(), names, rates, infos, activities, images));
     }
-
 }

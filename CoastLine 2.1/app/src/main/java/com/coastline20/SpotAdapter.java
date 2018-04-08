@@ -12,14 +12,16 @@ import android.widget.TextView;
 
 public class SpotAdapter extends RecyclerView.Adapter<SpotAdapter.ViewHolder> {
     private Context context;
-    private String[] names, rates, infos;
+    private String[] names, rates, infos, activities;
     private int[] images;
 
-    SpotAdapter(Context context, String[] names, String[] rates, String[] infos, int[] images) {
+    SpotAdapter(Context context, String[] names, String[] rates, String[] infos, String[] activities,
+                int[] images) {
         this.context = context;
         this.names = names;
         this.rates = rates;
         this.infos = infos;
+        this.activities = activities;
         this.images = images;
     }
 
@@ -32,7 +34,7 @@ public class SpotAdapter extends RecyclerView.Adapter<SpotAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final ViewHolder holder, final int position) {
         holder.name.setText(names[position]);
         holder.rate.setText(rates[position]);
         holder.info.setText(infos[position]);
@@ -40,8 +42,8 @@ public class SpotAdapter extends RecyclerView.Adapter<SpotAdapter.ViewHolder> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // MainActivity 未知
-                Intent intent = new Intent().setClass(context, MainActivity.class);
+                // 以 Activity 名稱進行跳轉
+                Intent intent = new Intent().setClassName(context, activities[position]);
                 context.startActivity(intent);
             }
         });

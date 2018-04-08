@@ -3,7 +3,11 @@
     android:id="@+id/recycler_view_station_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp">
 
     <TextView
         android:id="@+id/spot_name"

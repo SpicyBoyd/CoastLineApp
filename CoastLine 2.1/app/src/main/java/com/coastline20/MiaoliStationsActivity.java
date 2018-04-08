@@ -41,7 +41,7 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_miaoli_stations);
+        setContentView(R.layout.activity_stations);
         init();
         setSupportActionBar(toolbar);
         setNavigationDrawer();
@@ -102,21 +102,25 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
                 getResources().getStringArray(R.array.tanwen_spot_name),
                 getResources().getStringArray(R.array.tanwen_spot_rate),
                 getResources().getStringArray(R.array.tanwen_spot_info),
+                getResources().getStringArray(R.array.tanwen_spot_activity),
                 new int[]{R.drawable.tanwenspot1, R.drawable.tanwenspot2}));
         fragmentList.add(StationFragment.newInstance(
                 getResources().getStringArray(R.array.dashan_spot_name),
                 getResources().getStringArray(R.array.dashan_spot_rate),
                 getResources().getStringArray(R.array.dashan_spot_info),
+                getResources().getStringArray(R.array.dashan_spot_activity),
                 new int[]{R.drawable.dashanspot1}));
         fragmentList.add(StationFragment.newInstance(
                 getResources().getStringArray(R.array.houlong_spot_name),
                 getResources().getStringArray(R.array.houlong_spot_rate),
                 getResources().getStringArray(R.array.houlong_spot_info),
+                getResources().getStringArray(R.array.houlong_spot_activity),
                 new int[]{R.drawable.houlongspot1}));
         fragmentList.add(StationFragment.newInstance(
                 getResources().getStringArray(R.array.longgang_spot_name),
                 getResources().getStringArray(R.array.longgang_spot_rate),
                 getResources().getStringArray(R.array.longgang_spot_info),
+                getResources().getStringArray(R.array.longgang_spot_activity),
                 new int[]{R.drawable.longgangspot1, R.drawable.longgangspot2, R.drawable.longgangspot3,
                         R.drawable.longgangspot4, R.drawable.longgangspot5, R.drawable.longgangspot6,
                         R.drawable.longgangspot7}));
@@ -124,22 +128,26 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
                 getResources().getStringArray(R.array.baishatun_spot_name),
                 getResources().getStringArray(R.array.baishatun_spot_rate),
                 getResources().getStringArray(R.array.baishatun_spot_info),
+                getResources().getStringArray(R.array.baishatun_spot_activity),
                 new int[]{R.drawable.baishatunspot1, R.drawable.baishatunspot2, R.drawable.baishatunspot3}));
         fragmentList.add(StationFragment.newInstance(
                 getResources().getStringArray(R.array.xinpu_spot_name),
                 getResources().getStringArray(R.array.xinpu_spot_rate),
                 getResources().getStringArray(R.array.xinpu_spot_info),
+                getResources().getStringArray(R.array.xinpu_spot_activity),
                 new int[]{R.drawable.xinpuspot1, R.drawable.xinpuspot2, R.drawable.xinpuspot3}));
         fragmentList.add(StationFragment.newInstance(
                 getResources().getStringArray(R.array.tongxiao_spot_name),
                 getResources().getStringArray(R.array.tongxiao_spot_rate),
                 getResources().getStringArray(R.array.tongxiao_spot_info),
+                getResources().getStringArray(R.array.tongxiao_spot_activity),
                 new int[]{R.drawable.tongxiaospot1, R.drawable.tongxiaospot2, R.drawable.tongxiaospot3,
                         R.drawable.tongxiaospot4, R.drawable.tongxiaospot5}));
         fragmentList.add(StationFragment.newInstance(
                 getResources().getStringArray(R.array.yuanli_spot_name),
                 getResources().getStringArray(R.array.yuanli_spot_rate),
                 getResources().getStringArray(R.array.yuanli_spot_info),
+                getResources().getStringArray(R.array.yuanli_spot_activity),
                 new int[]{R.drawable.yuanlispot1, R.drawable.yuanlispot2, R.drawable.yuanlispot3,
                         R.drawable.yuanlispot4, R.drawable.yuanlispot5, R.drawable.yuanlispot6}));
     }
