@@ -25,6 +25,7 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
     private StationPagerAdapter pagerAdapter;
     private List<StationFragment> fragmentList;
     private String[] titles;
+    private int fragmentNum;
 
     void init() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -34,6 +35,7 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         fragmentList = new ArrayList<>();
         titles = getResources().getStringArray(R.array.miaoli_stations);
+        fragmentNum = this.getIntent().getIntExtra("num", 0);
     }
 
     @Override
@@ -54,8 +56,9 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
         pagerAdapter = new StationPagerAdapter(getSupportFragmentManager(), titles, fragmentList);
         viewPager.setAdapter(pagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
-        viewPager.setCurrentItem(this.getIntent().getIntExtra("num", 0));
-        //tabLayout.getTabAt(this.getIntent().getIntExtra("num", 0)).select();
+        if (viewPager.getCurrentItem() != fragmentNum) {
+            viewPager.setCurrentItem(fragmentNum);
+        }
     }
 
     // 設定 navigation drawer
