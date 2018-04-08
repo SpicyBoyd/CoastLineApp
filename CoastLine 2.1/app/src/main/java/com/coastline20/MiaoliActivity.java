@@ -27,6 +27,7 @@ public class MiaoliActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationView = (NavigationView) findViewById(R.id.nav_view);
+        fragmentNum = 3; // 預設位置
     }
 
     @Override
