@@ -1,24 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="taichung_stations">
-        <item>追分車站</item>
-        <item>大肚車站</item>
-        <item>龍井車站</item>
-        <item>沙鹿車站</item>
-        <item>清水車站</item>
-        <item>台中港車站</item>
-        <item>大甲車站</item>
         <item>日南車站</item>
+        <item>大甲車站</item>
+        <item>台中港車站</item>
+        <item>清水車站</item>
+        <item>沙鹿車站</item>
+        <item>龍井車站</item>
+        <item>大肚車站</item>
+        <item>追分車站</item>
     </string-array>
 
     <string-array name="miaoli_stations">
-        <item>苑裡車站</item>
-        <item>通霄車站</item>
-        <item>新埔車站</item>
-        <item>白沙屯車站</item>
-        <item>龍港車站</item>
-        <item>後龍車站</item>
-        <item>大山車站</item>
         <item>談文車站</item>
+        <item>大山車站</item>
+        <item>後龍車站</item>
+        <item>龍港車站</item>
+        <item>白沙屯車站</item>
+        <item>新埔車站</item>
+        <item>通霄車站</item>
+        <item>苑裡車站</item>
     </string-array>
+
+    <string-array name="tanwen_spot_name">
+        <item>談文車站</item>
+        <item>鄭漢紀念碑</item>
+    </string-array>
+    <string-array name="tanwen_spot_rate">
+        <item>★★☆☆☆</item>
+        <item>★★★☆☆</item>
+    </string-array>
+    <string-array name="tanwen_spot_info">
+        <item>木造車站</item>
+        <item>眺望中港溪畔的農田</item>
+    </string-array>
+    <integer-array name="tanwen_spot_image">
+        <item>@drawable/tanwenspot1</item>
+        <item>@drawable/tanwenspot2</item>
+    </integer-array>
+
+    <string-array name="dashan_spot_name">
+        <item>大山車站</item>
+    </string-array>
+    <string-array name="dashan_spot_rate">
+        <item>★★☆☆☆</item>
+    </string-array>
+    <string-array name="dashan_spot_info">
+        <item>木造車站</item>
+    </string-array>
+
+    <string-array name="houlong_spot_name">
+        <item>後龍車站</item>
+    </string-array>
+    <string-array name="houlong_spot_rate">
+        <item>★★☆☆☆</item>
+    </string-array>
+    <string-array name="houlong_spot_info">
+        <item>高架路線車站</item>
+    </string-array>
+
+    <string-array name="longgang_spot_name">
+        <item>龍港車站</item>
+        <item>公司寮漁港</item>
+        <item>同興老街</item>
+        <item>後龍好望角</item>
+        <item>過港貝化石層</item>
+        <item>海角樂園</item>
+        <item>過港舊隧道</item>
+    </string-array>
+    <string-array name="longgang_spot_rate">
+        <item>★☆☆☆☆</item>
+        <item>★★☆☆☆</item>
+        <item>★★☆☆☆</item>
+        <item>★★★★★</item>
+        <item>★★★☆☆</item>
+        <item>★★★★☆</item>
+        <item>★★☆☆☆</item>
+    </string-array>
+    <string-array name="longgang_spot_info">
+        <item>縱貫線上被遺忘的小站</item>
+        <item>沒落的漁港</item>
+        <item>迷你的老街</item>
+        <item>有山、有海、有風車</item>
+        <item>無數貝殼化石</item>
+        <item>純白風車、湛藍海景、還有一道彩虹</item>
+        <item>鐵路懷舊隧道</item>
+    </string-array>
+
+    <string-array name="baishatun_spot_name">
+        <item>白沙屯車站</item>
+        <item>拱天宮</item>
+        <item>白沙屯海灘</item>
+    </string-array>
+    <string-array name="baishatun_spot_rate">
+        <item>★★★☆☆</item>
+        <item>★★★☆☆</item>
+        <item>★★★★★</item>
+    </string-array>
+    <string-array name="baishatun_spot_info">
+        <item> </item>
+        <item>媽祖廟</item>
+        <item>有海、有沙、有風車</item>
+    </string-array>
+
+    <string-array name="xinpu_spot_name">
+    <item>新埔車站</item>
+    <item>新埔海邊</item>
+    <item>秋茂園</item>
+</string-array>
+    <string-array name="xinpu_spot_rate">
+        <item>★★★☆☆</item>
+        <item>★★★★★</item>
+        <item>★★☆☆☆</item>
+    </string-array>
+    <string-array name="xinpu_spot_info">
+        <item>距離海岸最近的車站</item>
+        <item>漸層海浪，陰陽海</item>
+        <item>人物、動物的塑像</item>
+    </string-array>
+
+    <string-array name="tongxiao_spot_name">
+        <item>通霄車站</item>
+        <item>通霄神社</item>
+        <item>虎頭山公園</item>
+        <item>通霄精鹽廠</item>
+        <item>通霄海水浴場</item>
+    </string-array>
+    <string-array name="tongxiao_spot_rate">
+        <item>★★★☆☆</item>
+        <item>★★★★☆</item>
+        <item>★★★☆☆</item>
+        <item>★★★☆☆</item>
+        <item>★★☆☆☆</item>
+    </string-array>
+    <string-array name="tongxiao_spot_info">
+        <item> </item>
+        <item>森林中的神社</item>
+        <item>感受海岸的美麗、山景的壯麗</item>
+        <item>不只鹹，還有深度</item>
+        <item>需要入場券</item>
+    </string-array>
+
+    <string-array name="yuanli_spot_name">
+        <item>苑裡車站</item>
+        <item>天下路老街</item>
+        <item>房里古城</item>
+        <item>山腳國小日治宿舍群</item>
+        <item>藺草文化館</item>
+        <item>東里家風百年古厝</item>
+    </string-array>
+    <string-array name="yuanli_spot_rate">
+        <item>★★☆☆☆</item>
+        <item>★★☆☆☆</item>
+        <item>★★★☆☆</item>
+        <item>★★★★★</item>
+        <item>★★★★☆</item>
+        <item>★★★★☆</item>
+    </string-array>
+    <string-array name="yuanli_spot_info">
+        <item> </item>
+        <item>保存良好的老街</item>
+        <item>歷史文物</item>
+        <item>見證歷史的活史蹟</item>
+        <item>紀錄過去的繁華</item>
+        <item>古裝劇拍攝場景</item>
+    </string-array>
+
 </resources>

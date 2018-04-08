@@ -9,19 +9,23 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.NumberPicker;
 import android.support.v7.widget.Toolbar;
+import android.widget.Toast;
 
 public class MiaoliActivity extends AppCompatActivity {
     private NumberPicker numberPicker;
     private NavigationView navigationView;
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
+    private int fragmentNum;
 
     void init() {
         numberPicker = (NumberPicker) findViewById(R.id.picker);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationView = (NavigationView) findViewById(R.id.nav_view);
     }
 
@@ -72,8 +76,19 @@ public class MiaoliActivity extends AppCompatActivity {
         numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
             public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
-
+                fragmentNum = newVal;
             }
         });
+    }
+
+    public void cancelAction(View view) {
+        numberPicker.setValue(3); // 設定預設位置
+        Toast.makeText(this, "請重新選擇車站", Toast.LENGTH_SHORT).show();
+    }
+
+    public void submitAction(View view) {
+        Intent intent = new Intent().setClass(MiaoliActivity.this, MiaoliStationsActivity.class);
+        intent.putExtra("num", fragmentNum);
+        startActivity(intent);
     }
 }

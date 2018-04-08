@@ -11,8 +11,7 @@
         android:roundIcon="@mipmap/coastline_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".WelcomeActivity">
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +23,7 @@
             android:theme="@style/AppTheme.ActionBar" />
         <activity android:name=".MiaoliActivity" />
         <activity android:name=".TaichungActivity" />
+        <activity android:name=".MiaoliStationsActivity"/>
     </application>
 
 </manifest>
