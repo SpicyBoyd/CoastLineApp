@@ -46,6 +46,6 @@
         android:fitsSystemWindows="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:headerLayout="@layout/header_area"
-        app:menu="@menu/area_menu" />
+        app:menu="@menu/menu_area" />
 
 </android.support.v4.widget.DrawerLayout>

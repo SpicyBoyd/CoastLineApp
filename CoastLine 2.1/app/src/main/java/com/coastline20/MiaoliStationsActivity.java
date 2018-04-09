@@ -71,16 +71,11 @@ public class MiaoliStationsActivity extends AppCompatActivity {
                     startActivity(intent);
                     return true;
                 }
-                if (id == R.id.miaoli) {
-                    Intent intent = new Intent().setClass(MiaoliStationsActivity.this, MiaoliActivity.class);
-                    startActivity(intent);
-                    return true;
-                }
-                if (id == R.id.taichung) {
-                    Intent intent = new Intent().setClass(MiaoliStationsActivity.this, TaichungActivity.class);
-                    startActivity(intent);
-                    return true;
-                }
+//                if (id == R.id.taichung_stations) {
+//                    Intent intent = new Intent().setClass(MiaoliStationsActivity.this, TaichungStationsActivity.class);
+//                    startActivity(intent);
+//                    return true;
+//                }
                 return false;
             }
         });
