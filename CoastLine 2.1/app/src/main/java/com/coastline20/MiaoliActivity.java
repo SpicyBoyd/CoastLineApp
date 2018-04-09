@@ -10,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.NumberPicker;
 import android.support.v7.widget.Toolbar;
 import android.widget.Toast;
@@ -22,7 +21,7 @@ public class MiaoliActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private int fragmentNum;
 
-    void init() {
+    private void init() {
         numberPicker = (NumberPicker) findViewById(R.id.picker);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -34,11 +33,29 @@ public class MiaoliActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_miaoli);
-        init();
 
+        init();
         // 設定 toolbar
         setSupportActionBar(toolbar);
-        // 設定 navigation drawer
+        setNavigationDrawer();
+        // 主畫面
+        final String[] stations = getResources().getStringArray(R.array.miaoli_stations);
+        numberPicker.setMinValue(0);
+        numberPicker.setMaxValue(stations.length - 1);
+        numberPicker.setDisplayedValues(stations);
+        numberPicker.setValue(3); // 設定預設位置
+        numberPicker.setWrapSelectorWheel(false); // 是否循環顯示
+        numberPicker.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS); // 不可編輯
+        numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
+            @Override
+            public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
+                fragmentNum = newVal;
+            }
+        });
+    }
+
+    // 設定 navigation drawer
+    private void setNavigationDrawer() {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -65,21 +82,6 @@ public class MiaoliActivity extends AppCompatActivity {
                 drawerLayout, toolbar, R.string.open, R.string.close);
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
-
-        // 主畫面
-        final String[] stations = getResources().getStringArray(R.array.miaoli_stations);
-        numberPicker.setMinValue(0);
-        numberPicker.setMaxValue(stations.length - 1);
-        numberPicker.setDisplayedValues(stations);
-        numberPicker.setValue(3); // 設定預設位置
-        numberPicker.setWrapSelectorWheel(false); // 是否循環顯示
-        numberPicker.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS); // 不可編輯
-        numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
-            @Override
-            public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
-                fragmentNum = newVal;
-            }
-        });
     }
 
     public void cancelAction(View view) {

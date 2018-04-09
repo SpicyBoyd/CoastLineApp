@@ -11,4 +11,7 @@
     <!--activity_welcome-->
     <string name="welcome_text1">海線車站</string>
     <string name="welcome_text2">旅遊札記</string>
+
+    <string name="miaoli_stations">苗栗地區</string>
+    <string name="taichung_stations">台中地區</string>
 </resources>

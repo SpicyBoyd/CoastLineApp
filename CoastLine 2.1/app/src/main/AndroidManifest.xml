@@ -20,10 +20,82 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:launchMode="singleTask"
             android:theme="@style/AppTheme.ActionBar" />
-        <activity android:name=".MiaoliActivity" />
-        <activity android:name=".TaichungActivity" />
-        <activity android:name=".MiaoliStationsActivity"/>
+        <activity
+            android:name=".MiaoliActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".TaichungActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MiaoliStationsActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".miaoli.baishatun.Baishatun1Activity" />
+        <activity android:name=".miaoli.dashan.Dashan1Activity" />
+        <activity android:name=".miaoli.houlong.Houlong1Activity" />
+        <activity android:name=".miaoli.longgang.Longgang1Activity" />
+        <activity android:name=".miaoli.tanwen.Tanwen1Activity" />
+        <activity android:name=".miaoli.tongxiao.Tongxiao1Activity" />
+        <activity android:name=".miaoli.xinpu.Xinpu1Activity" />
+        <activity android:name=".miaoli.yuanli.Yuanli1Activity" />
+        <activity android:name=".miaoli.baishatun.Baishatun2Activity" />
+        <activity android:name=".miaoli.baishatun.Baishatun3Activity" />
+        <activity
+            android:name=".TaichungStationsActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".miaoli.tanwen.Tanwen2Activity" />
+        <activity android:name=".miaoli.longgang.Longgang2Activity" />
+        <activity android:name=".miaoli.longgang.Longgang3Activity" />
+        <activity android:name=".miaoli.longgang.Longgang4Activity" />
+        <activity android:name=".miaoli.longgang.Longgang5Activity" />
+        <activity android:name=".miaoli.longgang.Longgang6Activity" />
+        <activity android:name=".miaoli.longgang.Longgang7Activity" />
+        <activity android:name=".miaoli.xinpu.Xinpu2Activity" />
+        <activity android:name=".miaoli.xinpu.Xinpu3Activity" />
+        <activity android:name=".miaoli.tongxiao.Tongxiao2Activity" />
+        <activity android:name=".miaoli.tongxiao.Tongxiao3Activity" />
+        <activity android:name=".miaoli.tongxiao.Tongxiao4Activity" />
+        <activity android:name=".miaoli.tongxiao.Tongxiao5Activity" />
+        <activity android:name=".miaoli.yuanli.Yuanli2Activity" />
+        <activity android:name=".miaoli.yuanli.Yuanli3Activity" />
+        <activity android:name=".miaoli.yuanli.Yuanli4Activity" />
+        <activity android:name=".miaoli.yuanli.Yuanli5Activity" />
+        <activity android:name=".miaoli.yuanli.Yuanli6Activity" />
+        <activity android:name=".taichung.rinan.Rinan1Activity" />
+        <activity android:name=".taichung.rinan.Rinan2Activity" />
+        <activity android:name=".taichung.dajia.Dajia1Activity" />
+        <activity android:name=".taichung.dajia.Dajia2Activity" />
+        <activity android:name=".taichung.dajia.Dajia3Activity" />
+        <activity android:name=".taichung.dajia.Dajia4Activity" />
+        <activity android:name=".taichung.dajia.Dajia5Activity" />
+        <activity android:name=".taichung.dajia.Dajia6Activity" />
+        <activity android:name=".taichung.taichung_port.TaichungPort1Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui1Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui2Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui3Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui4Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui5Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui6Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui7Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui8Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui9Activity" />
+        <activity android:name=".taichung.qingshui.Qingshui10Activity" />
+        <activity android:name=".taichung.shalu.Shalu1Activity" />
+        <activity android:name=".taichung.shalu.Shalu2Activity" />
+        <activity android:name=".taichung.shalu.Shalu3Activity" />
+        <activity android:name=".taichung.longjing.Longjing1Activity" />
+        <activity android:name=".taichung.longjing.Longjing2Activity" />
+        <activity android:name=".taichung.longjing.Longjing3Activity" />
+        <activity android:name=".taichung.longjing.Longjing4Activity" />
+        <activity android:name=".taichung.zhuifen.Zhuifen1Activity" />
+        <activity android:name=".taichung.zhuifen.Zhuifen2Activity" />
+        <activity android:name=".taichung.dadu.Dadu1Activity" />
+        <activity android:name=".taichung.dadu.Dadu2Activity" />
+        <activity android:name=".taichung.dadu.Dadu3Activity" />
+        <activity android:name=".taichung.dadu.Dadu4Activity" />
+        <activity android:name=".taichung.dadu.Dadu5Activity" />
+        <activity android:name=".taichung.dadu.Dadu6Activity" />
     </application>
 
 </manifest>

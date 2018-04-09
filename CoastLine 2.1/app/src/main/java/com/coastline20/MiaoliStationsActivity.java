@@ -16,18 +16,17 @@ import android.view.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MiaoliStationsActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener {
+public class MiaoliStationsActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private StationPagerAdapter pagerAdapter;
     private List<StationFragment> fragmentList;
     private String[] titles;
     private int fragmentNum;
 
-    void init() {
+    private void init() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -42,23 +41,19 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stations);
+
         init();
-        setSupportActionBar(toolbar);
+        setToolbar();
         setNavigationDrawer();
-
-        // 設定 TabLayout
-        for (String title : titles) {
-            tabLayout.addTab(tabLayout.newTab().setText(title));
-        }
-        tabLayout.addOnTabSelectedListener(this);
-
         setFragmentList();
-        pagerAdapter = new StationPagerAdapter(getSupportFragmentManager(), titles, fragmentList);
-        viewPager.setAdapter(pagerAdapter);
-        tabLayout.setupWithViewPager(viewPager);
-        if (viewPager.getCurrentItem() != fragmentNum) {
-            viewPager.setCurrentItem(fragmentNum);
-        }
+        setTabLayout();
+        setViewPager();
+    }
+
+    // 設定 Toolbar
+    private void setToolbar() {
+        toolbar.setTitle(R.string.miaoli_stations);
+        setSupportActionBar(toolbar);
     }
 
     // 設定 navigation drawer
@@ -94,6 +89,37 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
                 drawerLayout, toolbar, R.string.open, R.string.close);
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
+    }
+
+    // 設定 TabLayout
+    private void setTabLayout() {
+        for (String title : titles) {
+            tabLayout.addTab(tabLayout.newTab().setText(title));
+        }
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+            }
+        });
+    }
+
+    // 設定 ViewPager
+    private void setViewPager() {
+        StationPagerAdapter pagerAdapter = new StationPagerAdapter(getSupportFragmentManager(), titles, fragmentList);
+        viewPager.setAdapter(pagerAdapter);
+        tabLayout.setupWithViewPager(viewPager);
+        if (viewPager.getCurrentItem() != fragmentNum) {
+            viewPager.setCurrentItem(fragmentNum);
+        }
     }
 
     // 設定車站景點資料
@@ -150,18 +176,5 @@ public class MiaoliStationsActivity extends AppCompatActivity implements TabLayo
                 getResources().getStringArray(R.array.yuanli_spot_activity),
                 new int[]{R.drawable.yuanlispot1, R.drawable.yuanlispot2, R.drawable.yuanlispot3,
                         R.drawable.yuanlispot4, R.drawable.yuanlispot5, R.drawable.yuanlispot6}));
-    }
-
-    @Override
-    public void onTabSelected(TabLayout.Tab tab) {
-        viewPager.setCurrentItem(tab.getPosition());
-    }
-
-    @Override
-    public void onTabUnselected(TabLayout.Tab tab) {
-    }
-
-    @Override
-    public void onTabReselected(TabLayout.Tab tab) {
     }
 }

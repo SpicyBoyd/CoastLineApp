@@ -11,9 +11,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class StationFragment extends Fragment {
     private String[] names, rates, infos, activities;
     private int[] images;
@@ -46,7 +43,7 @@ public class StationFragment extends Fragment {
 
     // 不建議在 onCreateView 使用findViewById，可能會crash
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_station, container, false);
@@ -59,6 +56,6 @@ public class StationFragment extends Fragment {
         DividerItemDecoration itemDecor = new DividerItemDecoration(view.getContext(), DividerItemDecoration.VERTICAL);
         recyclerView.addItemDecoration(itemDecor);
         recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL));
-        recyclerView.setAdapter(new SpotAdapter(this.getContext(), names, rates, infos, activities, images));
+        recyclerView.setAdapter(new SpotAdapter(names, rates, infos, activities, images));
     }
 }

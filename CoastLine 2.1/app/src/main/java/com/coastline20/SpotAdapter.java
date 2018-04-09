@@ -1,6 +1,5 @@
 package com.coastline20;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -11,13 +10,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class SpotAdapter extends RecyclerView.Adapter<SpotAdapter.ViewHolder> {
-    private Context context;
     private String[] names, rates, infos, activities;
     private int[] images;
 
-    SpotAdapter(Context context, String[] names, String[] rates, String[] infos, String[] activities,
-                int[] images) {
-        this.context = context;
+    SpotAdapter(String[] names, String[] rates, String[] infos, String[] activities, int[] images) {
         this.names = names;
         this.rates = rates;
         this.infos = infos;
@@ -43,8 +39,8 @@ public class SpotAdapter extends RecyclerView.Adapter<SpotAdapter.ViewHolder> {
             @Override
             public void onClick(View v) {
                 // 以 Activity 名稱進行跳轉
-                Intent intent = new Intent().setClassName(context, activities[position]);
-                context.startActivity(intent);
+                Intent intent = new Intent().setClassName(v.getContext(), activities[position]);
+                v.getContext().startActivity(intent);
             }
         });
     }

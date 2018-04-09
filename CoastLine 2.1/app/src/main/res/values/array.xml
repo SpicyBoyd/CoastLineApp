@@ -36,8 +36,8 @@
         <item>眺望中港溪畔的農田</item>
     </string-array>
     <string-array name="tanwen_spot_activity">
-        <item>Tanwen1Activity</item>
-        <item>Tanwen2Activity</item>
+        <item>com.coastline20.miaoli.tanwen.Tanwen1Activity</item>
+        <item>com.coastline20.miaoli.tanwen.Tanwen2Activity</item>
     </string-array>
 
     <string-array name="dashan_spot_name">
@@ -50,7 +50,7 @@
         <item>木造車站</item>
     </string-array>
     <string-array name="dashan_spot_activity">
-        <item>Dashan1Activity</item>
+        <item>com.coastline20.miaoli.dashan.Dashan1Activity</item>
     </string-array>
 
     <string-array name="houlong_spot_name">
@@ -63,7 +63,7 @@
         <item>高架路線車站</item>
     </string-array>
     <string-array name="houlong_spot_activity">
-        <item>Houlong1Activity</item>
+        <item>com.coastline20.miaoli.houlong.Houlong1Activity</item>
     </string-array>
 
     <string-array name="longgang_spot_name">
@@ -94,13 +94,13 @@
         <item>鐵路懷舊隧道</item>
     </string-array>
     <string-array name="longgang_spot_activity">
-        <item>Longgang1Activity</item>
-        <item>Longgang2Activity</item>
-        <item>Longgang3Activity</item>
-        <item>Longgang4Activity</item>
-        <item>Longgang5Activity</item>
-        <item>Longgang6Activity</item>
-        <item>Longgang7Activity</item>
+        <item>com.coastline20.miaoli.longgang.Longgang1Activity</item>
+        <item>com.coastline20.miaoli.longgang.Longgang2Activity</item>
+        <item>com.coastline20.miaoli.longgang.Longgang3Activity</item>
+        <item>com.coastline20.miaoli.longgang.Longgang4Activity</item>
+        <item>com.coastline20.miaoli.longgang.Longgang5Activity</item>
+        <item>com.coastline20.miaoli.longgang.Longgang6Activity</item>
+        <item>com.coastline20.miaoli.longgang.Longgang7Activity</item>
     </string-array>
 
     <string-array name="baishatun_spot_name">
@@ -119,9 +119,9 @@
         <item>有海、有沙、有風車</item>
     </string-array>
     <string-array name="baishatun_spot_activity">
-        <item>Baishatun1Activity</item>
-        <item>Baishatun2Activity</item>
-        <item>Baishatun3Activity</item>
+        <item>com.coastline20.miaoli.baishatun.Baishatun1Activity</item>
+        <item>com.coastline20.miaoli.baishatun.Baishatun2Activity</item>
+        <item>com.coastline20.miaoli.baishatun.Baishatun3Activity</item>
     </string-array>
 
     <string-array name="xinpu_spot_name">
@@ -140,9 +140,9 @@
         <item>人物、動物的塑像</item>
     </string-array>
     <string-array name="xinpu_spot_activity">
-        <item>Xinpu1Activity</item>
-        <item>Xinpu2Activity</item>
-        <item>Xinpu3Activity</item>
+        <item>com.coastline20.miaoli.xinpu.Xinpu1Activity</item>
+        <item>com.coastline20.miaoli.xinpu.Xinpu2Activity</item>
+        <item>com.coastline20.miaoli.xinpu.Xinpu3Activity</item>
     </string-array>
 
     <string-array name="tongxiao_spot_name">
@@ -167,11 +167,11 @@
         <item>需要入場券</item>
     </string-array>
     <string-array name="tongxiao_spot_activity">
-        <item>Tongxiao1Activity</item>
-        <item>Tongxiao2Activity</item>
-        <item>Tongxiao3Activity</item>
-        <item>Tongxiao4Activity</item>
-        <item>Tongxiao5Activity</item>
+        <item>com.coastline20.miaoli.tongxiao.Tongxiao1Activity</item>
+        <item>com.coastline20.miaoli.tongxiao.Tongxiao2Activity</item>
+        <item>com.coastline20.miaoli.tongxiao.Tongxiao3Activity</item>
+        <item>com.coastline20.miaoli.tongxiao.Tongxiao4Activity</item>
+        <item>com.coastline20.miaoli.tongxiao.Tongxiao5Activity</item>
     </string-array>
 
     <string-array name="yuanli_spot_name">
@@ -199,12 +199,12 @@
         <item>古裝劇拍攝場景</item>
     </string-array>
     <string-array name="yuanli_spot_activity">
-        <item>Yuanli1Activity</item>
-        <item>Yuanli2Activity</item>
-        <item>Yuanli3Activity</item>
-        <item>Yuanli4Activity</item>
-        <item>Yuanli5Activity</item>
-        <item>Yuanli6Activity</item>
+        <item>com.coastline20.miaoli.yuanli.Yuanli1Activity</item>
+        <item>com.coastline20.miaoli.yuanli.Yuanli2Activity</item>
+        <item>com.coastline20.miaoli.yuanli.Yuanli3Activity</item>
+        <item>com.coastline20.miaoli.yuanli.Yuanli4Activity</item>
+        <item>com.coastline20.miaoli.yuanli.Yuanli5Activity</item>
+        <item>com.coastline20.miaoli.yuanli.Yuanli6Activity</item>
     </string-array>
 
     <!--台中車站-->
@@ -221,8 +221,8 @@
         <item>一邊散步、一邊做體操</item>
     </string-array>
     <string-array name="rinan_spot_activity">
-        <item>Rinan1Activity</item>
-        <item>Rinan2Activity</item>
+        <item>com.coastline20.taichung.rinan.Rinan1Activity</item>
+        <item>com.coastline20.taichung.rinan.Rinan2Activity</item>
     </string-array>
 
     <string-array name="dajia_spot_name">
@@ -250,12 +250,12 @@
         <item>奶油酥餅</item>
     </string-array>
     <string-array name="dajia_spot_activity">
-        <item>Dajia1Activity</item>
-        <item>Dajia2Activity</item>
-        <item>Dajia3Activity</item>
-        <item>Dajia4Activity</item>
-        <item>Dajia5Activity</item>
-        <item>Dajia6Activity</item>
+        <item>com.coastline20.taichung.dajia.Dajia1Activity</item>
+        <item>com.coastline20.taichung.dajia.Dajia2Activity</item>
+        <item>com.coastline20.taichung.dajia.Dajia3Activity</item>
+        <item>com.coastline20.taichung.dajia.Dajia4Activity</item>
+        <item>com.coastline20.taichung.dajia.Dajia5Activity</item>
+        <item>com.coastline20.taichung.dajia.Dajia6Activity</item>
     </string-array>
 
     <string-array name="taichung_port_spot_name">
@@ -268,7 +268,7 @@
         <item>離臺中港甚遠</item>
     </string-array>
     <string-array name="taichung_port_spot_activity">
-        <item>TaichungPort1Activity</item>
+        <item>com.coastline20.taichung.taichung_port.TaichungPort1Activity</item>
     </string-array>
 
     <string-array name="qingshui_spot_name">
@@ -308,16 +308,16 @@
         <item>考古遺址</item>
     </string-array>
     <string-array name="qingshui_spot_activity">
-        <item>Qingshui1Activity</item>
-        <item>Qingshui2Activity</item>
-        <item>Qingshui3Activity</item>
-        <item>Qingshui4Activity</item>
-        <item>Qingshui5Activity</item>
-        <item>Qingshui6Activity</item>
-        <item>Qingshui7Activity</item>
-        <item>Qingshui8Activity</item>
-        <item>Qingshui9Activity</item>
-        <item>Qingshui10Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui1Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui2Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui3Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui4Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui5Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui6Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui7Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui8Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui9Activity</item>
+        <item>com.coastline20.taichung.qingshui.Qingshui10Activity</item>
     </string-array>
 
     <string-array name="shalu_spot_name">
@@ -336,9 +336,9 @@
         <item>沙鹿的著名老街</item>
     </string-array>
     <string-array name="shalu_spot_activity">
-        <item>Shalu1Activity</item>
-        <item>Shalu2Activity</item>
-        <item>Shalu3Activity</item>
+        <item>com.coastline20.taichung.shalu.Shalu1Activity</item>
+        <item>com.coastline20.taichung.shalu.Shalu2Activity</item>
+        <item>com.coastline20.taichung.shalu.Shalu3Activity</item>
     </string-array>
 
     <string-array name="longjing_spot_name">
@@ -360,10 +360,10 @@
         <item>集人文、藝術景觀和社區意識之大成</item>
     </string-array>
     <string-array name="longjing_spot_activity">
-        <item>Longjing1Activity</item>
-        <item>Longjing2Activity</item>
-        <item>Longjing3Activity</item>
-        <item>Longjing4Activity</item>
+        <item>com.coastline20.taichung.longjing.Longjing1Activity</item>
+        <item>com.coastline20.taichung.longjing.Longjing2Activity</item>
+        <item>com.coastline20.taichung.longjing.Longjing3Activity</item>
+        <item>com.coastline20.taichung.longjing.Longjing4Activity</item>
     </string-array>
 
     <string-array name="dadu_spot_name">
@@ -391,12 +391,12 @@
         <item>郊山等級的步道</item>
     </string-array>
     <string-array name="dadu_spot_activity">
-        <item>Dadu1Activity</item>
-        <item>Dadu2Activity</item>
-        <item>Dadu3Activity</item>
-        <item>Dadu4Activity</item>
-        <item>Dadu5Activity</item>
-        <item>Dadu6Activity</item>
+        <item>com.coastline20.taichung.dadu.Dadu1Activity</item>
+        <item>com.coastline20.taichung.dadu.Dadu2Activity</item>
+        <item>com.coastline20.taichung.dadu.Dadu3Activity</item>
+        <item>com.coastline20.taichung.dadu.Dadu4Activity</item>
+        <item>com.coastline20.taichung.dadu.Dadu5Activity</item>
+        <item>com.coastline20.taichung.dadu.Dadu6Activity</item>
     </string-array>
 
     <string-array name="zhuifen_spot_name">
@@ -412,7 +412,7 @@
         <item>追分成功、成功追婚</item>
     </string-array>
     <string-array name="zhuifen_spot_activity">
-        <item>Zhuifen1Activity</item>
-        <item>Zhuifen2Activity</item>
+        <item>com.coastline20.taichung.zhuifen.Zhuifen1Activity</item>
+        <item>com.coastline20.taichung.zhuifen.Zhuifen2Activity</item>
     </string-array>
 </resources>

@@ -11,7 +11,7 @@ public class StationPagerAdapter extends FragmentPagerAdapter{
     private List<StationFragment> fragmentList;
     private String[] titles;
 
-    public StationPagerAdapter(FragmentManager fm, String[] titles, List<StationFragment> fragmentList) {
+    StationPagerAdapter(FragmentManager fm, String[] titles, List<StationFragment> fragmentList) {
         super(fm);
         this.titles = titles;
         this.fragmentList = fragmentList;
