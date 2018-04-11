@@ -56,6 +56,7 @@ public class StationFragment extends Fragment {
         DividerItemDecoration itemDecor = new DividerItemDecoration(view.getContext(), DividerItemDecoration.VERTICAL);
         recyclerView.addItemDecoration(itemDecor);
         recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL));
+        recyclerView.setNestedScrollingEnabled(false);
         recyclerView.setAdapter(new SpotAdapter(names, rates, infos, activities, images));
     }
 }
