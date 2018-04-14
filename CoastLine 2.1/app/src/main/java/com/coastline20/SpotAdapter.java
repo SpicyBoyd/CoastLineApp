@@ -25,7 +25,7 @@ public class SpotAdapter extends RecyclerView.Adapter<SpotAdapter.ViewHolder> {
     @Override
     public SpotAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.recyclerview_station_item, parent, false);
+                .inflate(R.layout.item_station, parent, false);
         return new SpotAdapter.ViewHolder(view);
     }
 

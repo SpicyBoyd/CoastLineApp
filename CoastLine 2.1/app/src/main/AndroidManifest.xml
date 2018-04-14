@@ -22,15 +22,9 @@
             android:name=".MainActivity"
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.ActionBar" />
-        <activity
-            android:name=".MiaoliActivity"
-            android:launchMode="singleTask" />
-        <activity
-            android:name=".TaichungActivity"
-            android:launchMode="singleTask" />
-        <activity
-            android:name=".MiaoliStationsActivity"
-            android:launchMode="singleTask" />
+        <activity android:name=".MiaoliActivity" />
+        <activity android:name=".TaichungActivity" />
+        <activity android:name=".MiaoliStationsActivity" />
         <activity android:name=".miaoli.baishatun.Baishatun1Activity" />
         <activity android:name=".miaoli.dashan.Dashan1Activity" />
         <activity android:name=".miaoli.houlong.Houlong1Activity" />
@@ -41,9 +35,7 @@
         <activity android:name=".miaoli.yuanli.Yuanli1Activity" />
         <activity android:name=".miaoli.baishatun.Baishatun2Activity" />
         <activity android:name=".miaoli.baishatun.Baishatun3Activity" />
-        <activity
-            android:name=".TaichungStationsActivity"
-            android:launchMode="singleTask" />
+        <activity android:name=".TaichungStationsActivity" />
         <activity android:name=".miaoli.tanwen.Tanwen2Activity" />
         <activity android:name=".miaoli.longgang.Longgang2Activity" />
         <activity android:name=".miaoli.longgang.Longgang3Activity" />
