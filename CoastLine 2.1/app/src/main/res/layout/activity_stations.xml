@@ -25,9 +25,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:tabIndicatorColor="@android:color/holo_blue_light"
+            app:tabMode="scrollable"
             app:tabSelectedTextColor="@android:color/black"
-            app:tabTextColor="@android:color/darker_gray"
-            app:tabMode="scrollable"/>
+            app:tabTextColor="@android:color/darker_gray" />
 
         <android.support.v4.view.ViewPager
             android:id="@+id/view_pager"

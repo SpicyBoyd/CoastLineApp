@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="spot_tab">
+        <item>照片</item>
+        <item>資訊</item>
+        <item>美食</item>
+    </string-array>
+
     <string-array name="taichung_stations">
         <item>日南車站</item>
         <item>大甲車站</item>
@@ -122,6 +128,14 @@
         <item>com.coastline20.miaoli.baishatun.Baishatun1Activity</item>
         <item>com.coastline20.miaoli.baishatun.Baishatun2Activity</item>
         <item>com.coastline20.miaoli.baishatun.Baishatun3Activity</item>
+    </string-array>
+    <string-array name="baishatun1_info">
+        <item>*  白沙屯原地名為白沙墩，是指白沙(海鹽)堆積如山丘的意思。</item>
+        <item>*  白沙屯車站位於臺灣苗栗縣通霄鎮白沙屯，為臺灣鐵路管理局海岸線的鐵路車站。</item>
+        <item>*  白沙屯這個名字非常可愛，讓人直接聯想到在海邊可以看見白白的沙灘、藍藍的海水、耀眼的陽光。這一站離海也只有兩、三百公尺，但從車站月台平面還看不到，要走到天橋上才有較好的視野。</item>
+    </string-array>
+    <string-array name="baishatun1_food">
+        <item>石蓮園</item>
     </string-array>
 
     <string-array name="xinpu_spot_name">
@@ -415,4 +429,5 @@
         <item>com.coastline20.taichung.zhuifen.Zhuifen1Activity</item>
         <item>com.coastline20.taichung.zhuifen.Zhuifen2Activity</item>
     </string-array>
+
 </resources>
