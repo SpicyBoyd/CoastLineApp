@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="spot_tab">
+    <string-array name="spot_tab2">
+        <item>照片</item>
+        <item>資訊</item>
+    </string-array>
+
+    <string-array name="spot_tab3">
         <item>照片</item>
         <item>資訊</item>
         <item>美食</item>
@@ -45,6 +50,16 @@
         <item>com.coastline20.miaoli.tanwen.Tanwen1Activity</item>
         <item>com.coastline20.miaoli.tanwen.Tanwen2Activity</item>
     </string-array>
+    <string-array name="tanwen1_info">
+        <item>*  談文車站的行人天橋為別具特色的心鎖橋</item>
+        <item>*  談文車站是海線五個日式木造車站之一，已有90年的歷史，但是這一站的狀況卻是五站之中最糟的</item>
+        <item>*  因為緊鄰路基較高的縱貫公路，本來就只能露出半層樓高的屋頂，居然又加了一道圍籬把車站正面完全遮住。這使得談文的木造站房從馬路上是看不到的，走近車站的正面也看不到全貌，只能從側面觀察，而最好的角度是要從車站內月台上來看</item>
+        <item>*  另外，談文現在已經降為招呼站，平常完全不會有站務人員</item>
+    </string-array>
+    <string-array name="tanwen2_info">
+        <item>*  鄭漢步道，不僅可運動健行，還可眺望中港溪平原與台灣海峽的美景，到此登山休閒的民眾也越趨增加</item>
+        <item>*  鄭漢為一位捨己救人的青年，民國五十三年間約二十多歲的鄭漢為營救兩名於中港溪嬉戲而溺水的孩童，奮不顧身跳往溪中將兩孩童救起，自己卻因腳被水壩鐵刺所割傷而溺斃於溪中。地方人士為感念鄭漢的義行，於視野最為良好的山頂處建造紀念碑</item>
+    </string-array>
 
     <string-array name="dashan_spot_name">
         <item>大山車站</item>
@@ -58,6 +73,11 @@
     <string-array name="dashan_spot_activity">
         <item>com.coastline20.miaoli.dashan.Dashan1Activity</item>
     </string-array>
+    <string-array name="dashan1_info">
+        <item>*  日式木造車站之一</item>
+        <item>*  海線鐵路沿中港溪南岸前進到出海口附近，接著便往南拐彎，進入後龍鎮。夾在中港溪與後龍溪差不多中間的區域，就是大山</item>
+        <item>*  大山還繼續使用90年歷史的日式木造站房，這使得談文、大山連續兩站都有木造站房，是全台灣唯一的珍貴路段。大山的木造站房保存狀況非常好，而且維護極為整潔，車站內外幾乎看不到任何垃圾；站房內也是用心經營，各式告示、注意事項都清清楚楚</item>
+    </string-array>
 
     <string-array name="houlong_spot_name">
         <item>後龍車站</item>
@@ -70,6 +90,33 @@
     </string-array>
     <string-array name="houlong_spot_activity">
         <item>com.coastline20.miaoli.houlong.Houlong1Activity</item>
+    </string-array>
+    <string-array name="houlong1_info">
+        <item>*  後龍是海線傳統六大站（後龍、通霄、苑裡、大甲、清水、沙鹿）之一</item>
+    </string-array>
+    <string-array name="houlong_food">
+        <item>黑輪伯</item>
+        <item>廟口肉圓</item>
+        <item>杏仁露</item>
+        <item>後龍餡餅</item>
+        <item>後龍小吃店</item>
+        <item>一條龍阿伯小吃</item>
+    </string-array>
+    <string-array name="houlong_food_info">
+        <item>大推蔬菜類，如高麗菜捲、蘿蔔、苦瓜</item>
+        <item>內餡簡單，肉和筍絲，醬汁不錯</item>
+        <item> </item>
+        <item>老闆娘每天現做現包,餡料為豬肉高麗菜,將餡餅煎至定型後再放入烤箱烘烤</item>
+        <item>大推二層肉</item>
+        <item>大推芋粿和米粉</item>
+    </string-array>
+    <string-array name="houlong_food_address">
+        <item>苗栗縣後龍鎮三民路120號黑輪伯</item>
+        <item>苗栗縣後龍鎮中龍街185號廟口肉圓</item>
+        <item>苗栗縣後龍鎮杏仁露</item>
+        <item>苗栗縣後龍鎮中龍里中龍街199號</item>
+        <item>苗栗縣後龍鎮北龍里中山街88–5號</item>
+        <item>苗栗縣後龍鎮北龍里中華路65–4號</item>
     </string-array>
 
     <string-array name="longgang_spot_name">
@@ -108,6 +155,33 @@
         <item>com.coastline20.miaoli.longgang.Longgang6Activity</item>
         <item>com.coastline20.miaoli.longgang.Longgang7Activity</item>
     </string-array>
+    <string-array name="longgang1_info">
+        <item>*  縱貫線上被遺忘的小站，目前是無站員的一站，僅停靠區間車</item>
+        <item>*  龍港車站是後龍鎮在海線的連續第三個車站，加上山線的豐富站，這使得後龍這個行政區擁有四個車站，在西部幹線算是最多的（支線不計）</item>
+        <item>*  龍港車站位於後龍溪出海口南岸，離海非常近，直線距離大概只有一百多公尺。從這一站開始，連續三個站都在海岸不遠處，因此這一段可說是名符其實的「海線」</item>
+    </string-array>
+    <string-array name="longgang2_info">
+        <item>*  如今泥沙淤積，面積大幅縮小，港口貨運也早已消失，當年的帆檣林立情景已不復見，港口一片寥寂</item>
+        <item>*  此地區以前為台灣與中國貿易船隻停泊的海港，因海港邊曾建有貿易公司的工寮，故地名稱為「公司寮」</item>
+    </string-array>
+    <string-array name="longgang3_info">
+        <item>*  迷你的老街，特色是兩側紅磚屋及石板路</item>
+        <item>*  同興老街就在公司寮村斜對面，在鐵道及省道另一頭</item>
+    </string-array>
+    <string-array name="longgang4_info">
+        <item>*  依山傍水有山有海，成排的大風車佇立海岸線。站在觀景台上，可遠眺後龍溪、西湖溪出海與台灣海峽交會。下方的海線鐵道，偶爾可見火車駛過</item>
+    </string-array>
+    <string-array name="longgang5_info">
+        <item>*  裸露的山壁挾雜著無數的貝殼化石，都屬於淺海的各種貝類，其中以海扇貝最多</item>
+        <item>*  於一百萬至六百萬年前，當時這塊山丘位於淺海中，如今則距離海岸線遠達零點五公里。岩層中夾藏的貝類化石，主要有雙殼貝類、卷貝類、翼足類、珊瑚類、海膽、螃蟹、介形蟲等</item>
+    </string-array>
+    <string-array name="longgang6_info">
+        <item>*  原本是垃圾掩埋場的後龍鎮中和里灣瓦海濱，在鎮公所綠美化復育後，九十三年闢建成小而美且具環保概念的「海角樂園」，再加上周邊有風力發電的「大風車」迎風旋轉，成了民眾拍照賞景及吹風的好去處</item>
+    </string-array>
+    <string-array name="longgang7_info">
+        <item>*  紅磚拱牆隧道，搭配木棧道</item>
+        <item>*  海線鐵道的興建亦反映1920年代台灣產業經濟開發的景象，且隧道本體具日治鐵道工程設施特色</item>
+    </string-array>
 
     <string-array name="baishatun_spot_name">
         <item>白沙屯車站</item>
@@ -134,8 +208,37 @@
         <item>*  白沙屯車站位於臺灣苗栗縣通霄鎮白沙屯，為臺灣鐵路管理局海岸線的鐵路車站。</item>
         <item>*  白沙屯這個名字非常可愛，讓人直接聯想到在海邊可以看見白白的沙灘、藍藍的海水、耀眼的陽光。這一站離海也只有兩、三百公尺，但從車站月台平面還看不到，要走到天橋上才有較好的視野。</item>
     </string-array>
-    <string-array name="baishatun1_food">
+    <string-array name="baishatun2_info">
+        <item>*  白沙屯拱天宮是臺灣一座媽祖廟，位在苗栗縣通霄鎮白東里白沙屯聚落。</item>
+        <item>*  臺灣一座媽祖廟。「白沙屯媽祖往北港徒步進香」歷史悠久，來回400公里左右，且無固定行程、路線，而其行程經媽祖的旨意而決定，是全臺灣最有特色的徒步進香活動。</item>
+        <item>*  白沙屯先民早年討海為生，因海上捕漁艱苦與危險，便奉祀軟身天上聖母，以祈求平安。清咸豐晚期開始集資籌建拱天宮，同治二年完工。其廟坐西朝東，是一間離海非常近的廟，歷經多次整修擴建，成為今日兩殿兩廂式宮廟建築。每年以步行方式前往北港朝天宮進香是白沙屯一年一度的大事，許多外出工作或遷居外地的鄉親都會回來參與盛事，這項傳統已經超過二百多年以上的歷史。</item>
+        <item>*  「白沙屯媽祖往北港徒步進香」歷史悠久，來回400公里左右，且無固定行程、路線，而其行程經媽祖的旨意而決定，是全臺灣最有特色的徒步進香活動。這是白沙屯媽祖獨具的特色，獲行政院文建會頒發證書指定為「國家重要民俗的無形文化資產」。</item>
+        <item>*  白沙屯媽祖徒步進香亦於2008年登錄為苗栗縣無形文化資產。登錄理由為「具有170年以上歷史之民俗活動，地方居民參與度高，參與者來自全國各地，被視為當地青年之成年禮，且尚未被商業、政治所污染。另具有全台路線最遠徒步進香、由媽祖指引日程和路程之獨特性，被具登錄為民俗之價值。」</item>
+    </string-array>
+    <string-array name="baishatun3_info">
+        <item>*  札記：\n駐足沙灘，讚嘆風車之美，亦可等待夕陽西下、晚霞餘暉。</item>
+        <item>*  這裡有臺灣最美海灘之一的封號，也是看風車的好地方。</item>
+    </string-array>
+    <string-array name="baishatun_food">
         <item>石蓮園</item>
+        <item>老杜牛肉麵</item>
+        <item>大腸麵線白東肉圓\n臭豆腐超大杯飲料</item>
+        <item>阿珠熱炒飯麵</item>
+        <item>阿潔 老麵饅頭</item>
+    </string-array>
+    <string-array name="baishatun_food_info">
+        <item>提供的菜單以火車便當為主</item>
+        <item>老杜40年原汁牛肉麵</item>
+        <item>賣什麼都寫在店名了</item>
+        <item>最近以蚵仔煎更為出名</item>
+        <item>阿潔河南老麵饅頭堅持純手工製作，札實而有彈性。堅持故鄉的古早作法，採用祖傳老麵頭天然發酵，口味獨特嚴選當地最天然的食材，吃的健康，營養無負擔。無人工添加物</item>
+    </string-array>
+    <string-array name="baishatun_food_address">
+        <item>苗栗縣通霄鎮白西里153–8號</item>
+        <item>苗栗縣通霄鎮白東里37–1號老杜牛肉麵</item>
+        <item>苗栗縣通霄鎮白東里2鄰白東8–11號大腸麵線白東肉圓臭豆腐超大杯飲料</item>
+        <item>苗栗縣通霄鎮白東里5鄰30號阿珠熱炒</item>
+        <item>苗栗縣通霄鎮自強路27–1號</item>
     </string-array>
 
     <string-array name="xinpu_spot_name">
@@ -157,6 +260,18 @@
         <item>com.coastline20.miaoli.xinpu.Xinpu1Activity</item>
         <item>com.coastline20.miaoli.xinpu.Xinpu2Activity</item>
         <item>com.coastline20.miaoli.xinpu.Xinpu3Activity</item>
+    </string-array>
+    <string-array name="xinpu1_info">
+        <item>*  日式木造車站之一，也是距離海岸線最近的車站</item>
+        <item>*  新埔是西部幹線離海最接近的車站（東部幹線有更接近的），直線距離大約150公尺，出站後直走隨便都可以到海邊</item>
+        <item>*  新埔車站保留了跟大山一模一樣的木造站房，差別只在於塗裝上漆的程度</item>
+    </string-array>
+    <string-array name="xinpu2_info">
+        <item>*  沿著海堤欣賞美麗的湛藍漸層海浪</item>
+    </string-array>
+    <string-array name="xinpu3_info">
+        <item>*  秋茂園是很古老的設計，裡面都是一些人物、動物的塑像，或是勵志、善行的故事壁畫，完全沒有新式的遊樂設施</item>
+        <item>*  秋茂園是旅日華僑黃秋茂先生回饋故鄉所建，在苗栗跟台南各有一座。園區內種植許多樹木，也建有幾間不同宗教信仰的廟宇，而園內最有特色的就是各式各樣的水泥石像</item>
     </string-array>
 
     <string-array name="tongxiao_spot_name">
@@ -186,6 +301,55 @@
         <item>com.coastline20.miaoli.tongxiao.Tongxiao3Activity</item>
         <item>com.coastline20.miaoli.tongxiao.Tongxiao4Activity</item>
         <item>com.coastline20.miaoli.tongxiao.Tongxiao5Activity</item>
+    </string-array>
+    <string-array name="tongxiao1_info">
+        <item>*  根據通霄鎮志記載：「通霄」一名由來，原是平埔族原住民道卡斯族之「風呢樣」，一名「屯消」社之所在</item>
+        <item>*  此外，又有一說：在清代時，因本鎮昔日南勢溪水深可停泊商船，為銅鑼、三義、苗栗等地貨物「吞」吐「銷」售中心。閩南語「霄」與「銷」發音相同，所以稱「吞霄」。清治時期部份有志之士開始改稱「通霄」</item>
+        <item>*  日治時期新竹州長蒞臨視察，也認為「吞霄」地名之不雅。且就地北望，見虎頭山高聳入雲霄，覺得稱「通霄」較好。遂於明治37年（西元1904年）更名為現今之「通霄」</item>
+    </string-array>
+    <string-array name="tongxiao2_info">
+        <item>*  「通霄神社」位於苗栗縣的虎頭山公園內，是通霄最著名的歷史古蹟，也是台灣少數的日式神明建築，該神社建造於昭和12年(西元1937年)，日本接收台灣時，由地方人士所建造的通霄御遺跡地紀念碑，後來促成了現在的通霄神社建立</item>
+        <item>*  現存的「通霄神社」，主殿、幣殿、拜殿、社務所、參道、鳥居的社域格局依舊存在，惟主殿、幣殿已遭受到拆毀，僅存基台</item>
+        <item>*  其中拜殿在戰後被修改成中國傳統閩南式的燕翹脊屋頂，並且改為祭祀延平郡王鄭成功，而拜殿前參道的兩側有日式石燈籠，顏色新舊不一，部分是當年的舊物、部分是殘存的基座加上重鑄的石燈籠，雖然石燈籠與鳥居石柱上的昭和紀元已被抹去，但四周的環境仍可讓人感受到日本神社的氛圍</item>
+    </string-array>
+    <string-array name="tongxiao3_info">
+        <item>*  可瞭望苗栗山林與稻田交錯的田園風光，還有通霄一望無際的海景，當夕陽西下餘暉灑落海面</item>
+        <item>*  此外，山頂上有一座「日露戰役望樓記念碑」，是紀念日俄戰爭時，虎頭山曾為情報基地，日軍在此監視海上動靜的歷史，而光復後，此紀念碑被駐守於虎頭山的國軍改成「台灣光復紀念碑」</item>
+    </string-array>
+    <string-array name="tongxiao4_info">
+        <item>*  台鹽觀光工廠分成「鹽來館」及「生產工廠」兩區，欲前往生產工廠參觀者須提前預約</item>
+        <item>*  鹽來館門口擺設一大包台鹽特級精鹽和鹼性離子水瓶模型吸引遊客的目光，導覽介紹從水滴的旅行與水循環開始，詳述鹽的製造方法及企業經營的文化介紹，展出全世界使用的鹽罐及台鹽歷年來生產的商品，館內特別設計藍光隧道介紹鹽的其他用途及效果，展示了由鹽巴製成的精緻藝術</item>
+        <item>*  館外庭園採日式枯山水為設計背景，庭院中豎立全國首座鹽宗「夙沙氏」雕像，並立牌說明他的傳奇故事</item>
+        <item>*  「海洋溫泉設備區」利用電析後較淡的海水供遊客泡腳，廠區還販售特色鹹冰棒，能一邊吃冰一邊泡腳，極其享受</item>
+        <item>*  多種DIY活動供遊客選擇，其中以「七彩幸運鹽」最具特色，小朋友可以透過DIY體驗，為參觀鹽場的行程增添一些活動色彩</item>
+    </string-array>
+    <string-array name="tongxiao5_info">
+        <item>*  入場券：只要在火車站附近的商店買東西，都可以跟他要入場券。如果忘記在火車站附近要入場券，可以在海水浴場裡頭消費，也會給入場券</item>
+        <item>*  通霄海水浴場位於苗栗，是中部少見的海水浴場，過去曾荒蕪3年，無法開放，一直到2012年才重新開放，提供海域戲水與沙灘活動。暑假期間還會舉辦各種活動吸引大家來參加</item>
+    </string-array>
+    <string-array name="tongxiao_food">
+        <item>綠色小木屋</item>
+        <item>小倆口自助冰店</item>
+        <item>王煎包</item>
+        <item>邱煎包</item>
+        <item>賴煎包</item>
+        <item>國永號．問路店</item>
+    </string-array>
+    <string-array name="tongxiao_food_info">
+        <item>80年老店，販售高達10種以上的湯麵類</item>
+        <item>裝潢別有特色，充滿小倆口愛戀、浪漫的元素</item>
+        <item>位於媽祖廟前的排隊銅板小吃</item>
+        <item>有嚼感的餅皮</item>
+        <item>超薄脆皮</item>
+        <item>老字號柑仔店「國永號雜貨店」，最有名的是老闆娘滷製的茶葉蛋</item>
+    </string-array>
+    <string-array name="tongxiao_food_address">
+        <item>苗栗縣通霄鎮光復路11號</item>
+        <item>苗栗縣通霄鎮信義路小倆口</item>
+        <item>苗栗縣通霄鎮信義路119號王煎包</item>
+        <item>苗栗市通霄鎮仁愛路40號</item>
+        <item>苗栗縣通霄鎮仁愛路45巷18號</item>
+        <item>苗栗縣通霄鎮南和里116號問路店</item>
     </string-array>
 
     <string-array name="yuanli_spot_name">
@@ -220,6 +384,31 @@
         <item>com.coastline20.miaoli.yuanli.Yuanli5Activity</item>
         <item>com.coastline20.miaoli.yuanli.Yuanli6Activity</item>
     </string-array>
+    <string-array name="yuanli1_info">
+        <item>*   苑裡是苗栗縣在海線的最後一站，同時也是沿海三鎮（後龍、通霄、苑裡）中人口最多、最熱鬧的</item>
+    </string-array>
+    <string-array name="yuanli2_info">
+        <item>*  作為藺草編織發源地的苑裡，老街負起內外銷商品櫥窗的重要角色，當時街上曬帽蓆的盛況仍為耆老所樂道</item>
+        <item>*  天下路老街包括保存良好的楊合發帽蓆行、苑裡女子樂團、歷史巷道－「番仔路」、傳統手藝現場理髮店，都是彌足珍貴的文化資產</item>
+    </string-array>
+    <string-array name="yuanli3_info">
+        <item>*  房裡城是位於今臺灣苗栗縣苑裡鎮的民築城池，為今苗栗縣為一曾築過土石的城池，該地原為道卡斯族蓬山八社之一房裡社所有。該城已不存，但苑裡鎮公所於過去的南門、北門處有立碑紀念</item>
+        <item>*  房裡城雖然已成為歷史，但村裡依然留有相當豐富之歷史文物，例如順天宮、房裡溪義渡碑、蔡家古厝，都是相當值得訪客深入探索的</item>
+    </string-array>
+    <string-array name="yuanli4_info">
+        <item>*  原本閒置多年、結構老舊殘破的山腳國小日治後期宿舍群，一度面臨拆除命運。但經當地居民反應下，政府最終決意保存並修復這座具有歷史意義與文化價值的宿舍</item>
+        <item>*  山腳國小日治後期宿舍群在日據時代是學校提供給老師或官員的宿舍，主建築為木造，注重室內與戶外空間的串接，每棟均為雙拼格局，地板挑高與地面距離設置通氣窗保持通風，前後院地基為磚造牆壁為編竹夾泥牆，外覆以檜木板</item>
+    </string-array>
+    <string-array name="yuanli5_info">
+        <item>*  早期藺草蓆帽是苗栗縣苑裡鎮著名的外銷產業之一，隨著傳統產業的沒落藺草等製品與作用也漸漸被取代，為了紀念藺草對苑裡鎮的重要，經過地方爭取，將此地改建成為一座藺草文物館</item>
+        <item>*  以藺草生態及編織文化為主題，其他還設置了藺草體驗區、帽蓆文化區、農村文物、DIY教室、簡報區、戶外活動區等。每一個展示區擺放的都是老祖先的智慧，包含各式的日常生活用品、用具等</item>
+        <item>*  『藺草』因為莖部具有柔軟、韌性強、不易斷、吸水性強的特性，加上可以除濕、除臭的功能，故成為編織的優良材料</item>
+        <item>*  特殊活動-稻田彩繪：利用紫、綠水稻不同顏色的特色、在水田中種植出圖形，增加水田創意的美景</item>
+    </string-array>
+    <string-array name="yuanli6_info">
+        <item>*  歷經一百三十餘年時間，依舊展現唐山師父細緻結實建築工法，以及紅磚瓦與交趾陶的精緻藝術，這就是位於苑裡中溝溪畔的『東里家風』</item>
+        <item>*  台灣少見並保存良好的『東里家風』，是棟傳承文化藝術與先民生活歷史痕跡的百年三合院建築，為三級古蹟，古厝結合古蹟文化與觀光休閒功能，提供導覽、餐飲及民宿等服務，更是電影電視熱門拍攝場景</item>
+    </string-array>
 
     <!--台中車站-->
     <string-array name="rinan_spot_name">
@@ -237,6 +426,14 @@
     <string-array name="rinan_spot_activity">
         <item>com.coastline20.taichung.rinan.Rinan1Activity</item>
         <item>com.coastline20.taichung.rinan.Rinan2Activity</item>
+    </string-array>
+    <string-array name="rinan1_info">
+        <item>*  日式木造車站之一</item>
+        <item>*  特色是那設在側邊高處，狀似牛眼的「牛眼窗」，從月台觀看，便可以見到醒目的牛眼窗就穩穩的鑲在高處，還有破風造主結構和西式木屋價，而外牆是使用雨淋版</item>
+    </string-array>
+    <string-array name="rinan2_info">
+        <item>*   沿途設置一些簡單的體操看板，可讓散步的遊客停下腳步、伸展筋骨。九張犁庄開發得早，水圳發達，是大甲重要的米鄉之一</item>
+        <item>*  鐵路東側的九張犁聚落發展較慢，而保留下完整的舊聚落景觀</item>
     </string-array>
 
     <string-array name="dajia_spot_name">
@@ -271,6 +468,32 @@
         <item>com.coastline20.taichung.dajia.Dajia5Activity</item>
         <item>com.coastline20.taichung.dajia.Dajia6Activity</item>
     </string-array>
+    <string-array name="dajia1_info">
+        <item>*  海線鐵路過了大安溪，就來到了大甲車站。大甲不只是海線六大站之一，而且還是海線第一大站</item>
+    </string-array>
+    <string-array name="dajia2_info">
+        <item>*  俗稱大甲媽祖宮、大甲媽祖廟</item>
+        <item>*  主奉天上聖母媽祖，為台灣媽祖信仰的知名廟宇之一</item>
+        <item>*  大甲鎮瀾宮媽祖的遶境進香發展成宗教界的盛會，最有名的就是大甲媽南下遶境進香活動</item>
+    </string-array>
+    <string-array name="dajia3_info">
+        <item>*  國家三級古蹟，該牌坊是為了表彰清代淡水廳大甲街余榮長妻子林春娘的貞孝事蹟而立</item>
+        <item>*  該牌坊是為了表彰清代淡水廳大甲街余榮長妻子林春娘（文獻多記為春娘，而娘字為舊時對單名婦女的通稱，故應名為「林春」，而櫟社詩人蔡子昭所撰碑記即寫有「諱春」二字）的貞孝事蹟而立</item>
+        <item>*  林氏除貞孝事蹟外，於地方還有禱雨的事蹟，大甲居民奉為貞節媽。其神像供奉於大甲鎮瀾宮內為大甲三神之一</item>
+    </string-array>
+    <string-array name="dajia4_info">
+        <item>*  大甲最早的學校，也是斑駁的國家三級古蹟</item>
+        <item>*  文昌祠是三開間、兩進兩廊，左右帶護龍的殿堂式四合院祠宇建築。前埕寬敞山門是擔廊形式，三段燕尾翹脊，筒瓦屋面是清代祠廟形式。祠內請來鹿港師彩繪，是一座結合書院與廟宇的建築，列入國家第三級古蹟保存</item>
+    </string-array>
+    <string-array name="dajia5_info">
+        <item>*  劍井:傳說鄭成功在鐵砧山駐守時，以佩劍插地而得甘泉，故此地有劍井之名。</item>
+        <item>*  忠烈祠:原本奉祀鄭氏牌位，後來合祀抗戰剿匪的國軍英魂。祠前立有兩座古砲，建築則別具一格，採中西合璧</item>
+        <item>*  延平郡王像</item>
+        <item>*  永信公園:位在延平郡王像的旁邊，佔地寬廣，設施依地形而建，主要分為育樂中心及運動公園</item>
+    </string-array>
+    <string-array name="dajia6_info">
+        <item>*  大甲著名的奶油酥餅專賣店</item>
+    </string-array>
 
     <string-array name="taichung_port_spot_name">
         <item>臺中港車站</item>
@@ -283,6 +506,10 @@
     </string-array>
     <string-array name="taichung_port_spot_activity">
         <item>com.coastline20.taichung.taichung_port.TaichungPort1Activity</item>
+    </string-array>
+    <string-array name="taichung_port1_info">
+        <item>*  因站內有一條路線通往臺中港區而得名。實際上臺中港車站與真正的臺中港可說有一大段距離</item>
+        <item>*  海線鐵路穿越大甲市區之後，接著就跨越大甲溪，來到清水。在大甲溪南岸有一個地名叫做「甲南」（意思當然就是大甲之南），原本的台中港車站就是甲南車站</item>
     </string-array>
 
     <string-array name="qingshui_spot_name">
@@ -333,6 +560,55 @@
         <item>com.coastline20.taichung.qingshui.Qingshui9Activity</item>
         <item>com.coastline20.taichung.qingshui.Qingshui10Activity</item>
     </string-array>
+    <string-array name="qingshui1_info">
+        <item>*  清水舊名牛罵頭，原為平埔族「牛罵社」所在地</item>
+        <item>*  1935年中部發生大地震，次年蓋了好幾個「震災復興新式車站」，留存至今有三個（造橋、銅鑼、清水）還在使用，一個已停用保存（泰安），清水是唯一一個位於海線的此類車站</item>
+        <item>*  因為是現役中型車站，為了維持運作而做了不少改變，例如換成金屬門窗、加裝鐵條防盜等等</item>
+    </string-array>
+    <string-array name="qingshui2_info">
+        <item>*  位於清水車站右側的巷弄中，清水站是海線保有最多日式員工宿舍的一站。這幾棟相連的日式宅院，不僅屋舍本體還很完整，甚至連信箱都還是古董呢！</item>
+    </string-array>
+    <string-array name="qingshui3_info">
+        <item>*  建於高低起伏的人工矮丘與平地之間，建築為仿閩南風格設計，古樸典雅，具有本土傳統質素</item>
+        <item>*  中心主要區分為展覽廳、演藝廳、美術家資料館、演講會議廳、戶外劇場休閒區、研習教室區和行政區等</item>
+        <item>*  展覽廳以「尋藝」為意涵，如家門一般大小的入口，營造出尋覓的氣氛，希望大眾在善用公共資源有如回家的感覺般，經常舉辦繪畫、攝影、雕塑、陶藝和文物等</item>
+        <item>*  演藝廳大廳上方如斗笠的白色薄膜式屋頂，是中心最具特色的指標建築，是個多功能型演藝場所</item>
+        <item>*  戶外劇場休閒區則為開放式表演空間，包括藝術廣場、清水廣場、迴旋廣場、圖騰廣場、瓜棚和雅書廊等六個戶外廣場，適合地方戲曲、露天音樂會、假日文化廣場等戶外活動之表演</item>
+    </string-array>
+    <string-array name="qingshui4_info">
+        <item>*  清水眷村文化園區位於台中港藝術中心對面，園區展出和平新村、銀聯二村、陽明新村、果貿一村、信義新村、忠勇新村、慈恩二十村等七個清水在地眷村的老照片、特色文物，還會有文創市集、眷村巷口童玩體驗及眷村鐵馬電影院等</item>
+        <item>*  「清水眷村文化園區」的改建，是由台中市鰲峰人文發展協會及許多清水在地社區團體，與文化局攜手合作的。大多數參與園區改建的人都是自願性的。因為他們懷抱著熱忱，才能堅持下去</item>
+    </string-array>
+    <string-array name="qingshui5_info">
+        <item>*  高美濕地除了豐富的生態之外，到了黃昏，繽紛炫麗的夕陽，更將高美濕地點綴得更加浪漫</item>
+        <item>*  高美濕地（高美野生動物保護區）位於清水大甲溪出海口南側，擁有豐富的天然資源，是國內少數幾處雁鴨集體繁殖區之一。曾在高美濕地棲息的鳥類有多達120餘種，為重要之生態保育區。目前已逐漸取代大肚溪口，成為喜好賞鳥人士的新興賞線</item>
+        <item>*  高美濕地乾濕混合的河口生態讓這裡聚集了許多鳥類、魚類、蟹類和其他無脊椎類等生物，高美濕地「潮溪區」提供迴遊魚類生育孵化、「緩流區」讓魚苗平安長大、「泥灘地」是彈塗魚和大眼蟹的共處之地、「沙地」讓和尚蟹在這裡暢行無阻、「河口地」則有許多清白招潮蟹和網紋招潮蟹在這裡悠閒度日</item>
+        <item>*  高美濕地除了是豐富的寶地以外，也是調節水量的所在，能將洪水先吸收後再緩慢釋出，不僅保護沿岸居民的安全，更降低了地下水和土壤鹽化、洪災和土壤流失等災害，可說是珍貴的大自然資源</item>
+    </string-array>
+    <string-array name="qingshui6_info">
+        <item>*  這間百年學校，前身是日時教育制度下的清水公學校，且為市定古蹟</item>
+        <item>*  國小古蹟宿舍興建於日治時期(昭和9年)，教室宿舍的建築形式係屬於「和洋折衷式」宿舍，為日治中、晚期日本人「中流住宅」主要住宅型態。其在與外賓往來接觸密切的部分空間〈接待賓客之空間〉則採用西式空間與建築造型，頗具特色</item>
+    </string-array>
+    <string-array name="qingshui7_info">
+        <item>*  趙家古厝為國家三級古蹟。兩進六護龍，四周竹圍密布，前有半月池(現種荷花)，後靠鰲峰山，間有水路環繞，是一座保持相當完整的三合院</item>
+        <item>*  建材用土角牆，造型優美，有鳥踏、門樓、窗花、八卦窗…等</item>
+    </string-array>
+    <string-array name="qingshui8_info">
+        <item>*  鰲峰山公園又名「清水公園」，重新規劃、整修之後成為親子玩耍、民眾休閒的好去處。公園內增設了許多硬體設備，其中不乏由德國引進的趣味遊樂設施，讓孩子們擁有更多可以訓練體能的空間、挑戰手腳協調能力。眾多設施中，因觀景平台可以俯瞰清水市區的夜景與美麗夕陽</item>
+        <item>*  競合體驗遊戲場：星際蟲洞、還有2.4公尺高的『蜘蛛』造型的體能設施、鍛鍊平衡及韻律感的『極限飛輪』、類似障礙賽跑步區的『跑酷設施』，和模仿真實攀岩活動的『部落格子攀岩場』</item>
+        <item>*  鰲峰玉帶：玉帶橋採圓弧造型，讓遊客行走於圓心內，形成類似「玉帶環腰」的風水格局，期望走過此橋的人能財源滾滾。可由橋上觀賞清水地景與鰲峰山自然景觀</item>
+        <item>*  觀景平台：在鰲峰山制高點，擁有著180度全景可遠眺台灣海峽，台中港、高美濕地苗栗海線等景點，站在觀景平台遠眺無論是白天看海、日落黃昏、觀賞夜景，都會讓令人心曠神怡</item>
+        <item>*  自由車場：此自行車場為國際標準自行車競技場，堪稱亞洲第一座場地</item>
+        <item>*  音樂廣場：各種音樂體驗設施</item>
+    </string-array>
+    <string-array name="qingshui9_info">
+        <item>*  清水鬼洞沒有鬼，為日軍留下的戰備坑道。洞口有公所人員駐留，參觀需登記名字人數，領一個號碼牌</item>
+        <item>*  坑道四通八達、冬暖夏涼，且內部皆由鵝卵石、鋼筋及混凝土打造而成，相當堅固安穩。由於軍隊的生活作息都在坑道中進行，因此設有床鋪、洗手間、倉庫、辦公室、電話等設施，至今仍有少數保持完整的設備，讓民眾參觀時可感受當時在地道生活的困難與辛苦</item>
+    </string-array>
+    <string-array name="qingshui10_info">
+        <item>*  「牛罵頭遺址」為臺灣中部地區新石器時代中期文化的代表，並以此地名作為本文化類型的命名，亦為國內第一個「命名遺址」，出土陶器以紅、褐色繩紋陶為主</item>
+        <item>*  園區規劃兼具保存文化資產與展示教育的用途，不僅展出文化遺址介紹、出土文物典藏、考古挖掘方式等讓大家認識臺灣中部地區過去人類的生活面貌與拓墾歷程，還有日治時期神社留下來的遺跡以及原軍事營區的建築設施設置在其中，是一處蘊藏豐富歷史文化意義的空間</item>
+    </string-array>
 
     <string-array name="shalu_spot_name">
         <item>沙鹿車站</item>
@@ -353,6 +629,16 @@
         <item>com.coastline20.taichung.shalu.Shalu1Activity</item>
         <item>com.coastline20.taichung.shalu.Shalu2Activity</item>
         <item>com.coastline20.taichung.shalu.Shalu3Activity</item>
+    </string-array>
+    <string-array name="shalu1_info">
+        <item>*  沙鹿車站是海線六大站最南端的一個</item>
+    </string-array>
+    <string-array name="shalu2_info">
+        <item>*  重現50年前的旗袍店、黑貓大酒店、柑仔店、麵攤、水果店、黃包車等台灣早期的光景</item>
+        <item>*  主要以描繪50年前的臺灣懷舊景色。隱身於新平巷與美秀巷週邊小巷之中，共有五大幅維妙維肖的彩繪壁畫，重現早期臺灣的純樸生活面貌，勾起人們的兒時美好回憶，是一處值得細細品味、漫步探訪的臺中新興拍照景點</item>
+    </string-array>
+    <string-array name="shalu3_info">
+        <item>*  四平街則是沙鹿的著名老街，是沙鹿地區早期開發的商業聚落，街長大約400公尺，兩旁商店林立，特別是以金成發為代表的金紙店、成興商行…等，動輒是超過60年的老店。街上信仰中心有保安宮(三山國王廟)、玉皇殿及教會，前兩者是每年大甲媽遶境行程中的宮廟</item>
     </string-array>
 
     <string-array name="longjing_spot_name">
@@ -379,6 +665,22 @@
         <item>com.coastline20.taichung.longjing.Longjing3Activity</item>
         <item>com.coastline20.taichung.longjing.Longjing4Activity</item>
     </string-array>
+    <string-array name="longjing1_info">
+        <item>*  屋頂立了很有地方特色的招牌</item>
+        <item>*  龍井車站規模很小，乘客也不多，以車站周圍聚落居民為主</item>
+    </string-array>
+    <string-array name="longjing2_info">
+        <item>*  清水祖師廟龍泉岩前的古蹟－龍目井</item>
+        <item>*  相傳該井的泉水是由兩棵壞死的樟樹根部自然湧出的，而不是由人力所鑿成的。此井旁邊有兩塊石頭，形狀就好像龍的眼精。而現今的龍目井，原有的樟樹己不存在，而龍目井則以水泥重新整修，原兩井前的水池也幾乎乾涸，剩下周邊的老榕樹相伴，龍目井己成為現在居民們聊天休憩之處</item>
+    </string-array>
+    <string-array name="longjing3_info">
+        <item>*  位在臺中最西南端龍井區的麗水漁港，原為一座發展有百年歷史的老漁港，因受到鄰近的火力發電廠興建的影響之下，致使漁業發展日漸沒落乏人問津，幾乎不再有船隻來此捕魚，僅剩少數的膠筏停靠，後來巧妙地利用堤岸上已荒廢的海巡檢哨站改建為希臘風情藍白基調的觀景平台，再加上附近設有自行車步道，成為台中適合新人婚紗取景、觀夕照賞鳥、騎單車看海的絕佳勝地</item>
+    </string-array>
+    <string-array name="longjing4_info">
+        <item>*  理想國藝術街位於東海大學附近的國際街，是一個集人文、藝術景觀和社區意識之大成的理想國社區</item>
+        <item>*  在這一條沿著小斜坡而建的藝術街坊，體驗沿途的人文氣息，充滿個人特色、藝術氣息的商店，也有後現代主義式的咖啡店，以及室內裝飾佈置的小飾品店，大都充滿歐洲復古的氣氛，也有比較現代的摩登造型；另外還有許多各種個人化的商品店、咖啡館、茶藝館、陶藝館、唐裝服飾店等等</item>
+    </string-array>
+
 
     <string-array name="dadu_spot_name">
         <item>大肚車站</item>
@@ -412,6 +714,41 @@
         <item>com.coastline20.taichung.dadu.Dadu5Activity</item>
         <item>com.coastline20.taichung.dadu.Dadu6Activity</item>
     </string-array>
+    <string-array name="dadu1_info">
+        <item>*  台鐵站名吉祥車票興起之後，大肚也搭上這股熱潮，發行了「大肚成功」的硬式車票，對想要懷孕的夫妻頗有吸引力</item>
+        <item>*  大肚車站位於台灣臺中市大肚區，為臺灣鐵路管理局海岸線的鐵路車站</item>
+    </string-array>
+    <string-array name="dadu2_info">
+        <item>*  俗稱文昌祠，位於臺灣臺中市大肚區磺溪里文昌路上的古蹟。書院的前身稱為「西雝社」亦稱為「文昌會」，是當代文人士子的結集之所</item>
+        <item>*  三級古蹟磺溪書院，又稱文昌廟。磺溪書院內祭拜有五尊神明文昌帝君、孚佑帝君、文衡帝君、朱衣星君與魁斗星君，合稱為「五文昌」，是古時科舉時代掌管所有考試的神明。內設有大殿與拜殿，所以俗稱文昌祠或文昌廟，建築的樣式屬於傳統的閩南式合院型態，是一間結合學堂與廟宇的四合院</item>
+    </string-array>
+    <string-array name="dadu3_info">
+        <item>*  望高寮是臺灣觀賞夜景的地點之一，居大肚山南側，倚臨王田斷崖，為地形上可俯瞰東、南、西三面的景觀；向東可展望臺中盆地上臺中市天際線，向南可眺望大肚溪及對岸的彰化平原，向西可遠望整個臺中港。由於望高寮的位置偏僻，又因這裡是觀賞夜景的至高點，吸引不少人前來</item>
+    </string-array>
+    <string-array name="dadu4_info">
+        <item>*  環保運動公園，不單單是運動公園，還兼具教育的功能，此地原是大肚鄉垃圾掩埋場，經過多年的復育，如今不僅成為綠意盎然的環保公園，同時還是一座自然的生態教室</item>
+        <item>*  在春夏兩季，園內遍植的蜜源植物總是能夠吸引大批的蝴蝶在此繁衍生息，在這裡可觀察到蝴蝶的完整變態過程；從交尾、產卵、成蟲、結蛹到化蝶，令人讚嘆不已，目前環保運動公園將做為自然生態教室，開放給社會大眾以及學生使用</item>
+    </string-array>
+    <string-array name="dadu5_info">
+        <item>*  瑞井村，早期叫作「井仔頭」，是因為大肚台地的南端有兩條斷層線通過，斷層線上常湧出泉水，形成多處井泉，而早期聚落位於井泉湧出的地方，所以就叫做這個名字</item>
+        <item>*  土角厝它是一種傳統的泥屋建築，當地居民就地取材打造，常見於中國大陸或台灣鄉間。主要用竹管做柱骨、以竹片織牆，並且以稻草攪泥製磚砌牆。最後會再塗上石灰及泥土，而這類建築一般用紅瓦當做屋頂</item>
+        <item>*  瑞井社區著名的觀光景點就是二次大戰遺留下的彈孔紀念區、古井步道和阿嬤的灶腳</item>
+    </string-array>
+    <string-array name="dadu6_info">
+        <item>*  郊山等級的步道，蜿蜒於大肚山的稜支線，因為海拔不高且坡度平緩，是一條老少咸宜的步道，加上離鬧區並不算太遠，離高速公路或快速道路也近，尤其大肚區側的入口也方便停車，是條適合闔家前來走走路運動一下的好地方</item>
+    </string-array>
+    <string-array name="dadu_food">
+        <item>大肚公有零售市場</item>
+        <item>錦昌燒炸粿</item>
+    </string-array>
+    <string-array name="dadu_food_info">
+        <item>推薦小吃：阿珍的舖、大肚燕肉羹</item>
+        <item> </item>
+    </string-array>
+    <string-array name="dadu_food_address">
+        <item>臺中市大肚區沙田路二段693號</item>
+        <item>台中市大肚區文昌路一段19號</item>
+    </string-array>
 
     <string-array name="zhuifen_spot_name">
         <item>追分車站</item>
@@ -429,5 +766,21 @@
         <item>com.coastline20.taichung.zhuifen.Zhuifen1Activity</item>
         <item>com.coastline20.taichung.zhuifen.Zhuifen2Activity</item>
     </string-array>
-
+    <string-array name="zhuifen1_info">
+        <item>*  「追分」原為日文岔路的意思</item>
+        <item>*  海線五座木造站房中，追分站的規模最大</item>
+        <item>*  日式木造車站之一，也因販售「追分－成功」紀念車票而聞名</item>
+    </string-array>
+    <string-array name="zhuifen2_info">
+        <item>*  車站前設有一座追分許願池，來到這許個願吧，心誠則靈，祝福天下莘莘學子，追分成功金榜題名，祝福世間有情男女，成功追婚終成眷屬</item>
+    </string-array>
+    <string-array name="zhuifen_food">
+        <item>王田鵝肉</item>
+    </string-array>
+    <string-array name="zhuifen_food_info">
+        <item>三十多年老店</item>
+    </string-array>
+    <string-array name="zhuifen_food_address">
+        <item>台中市大肚區沙田路一段260號王田鵝肉</item>
+    </string-array>
 </resources>
