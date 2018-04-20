@@ -1,12 +1,20 @@
 package com.coastline20;
 
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import java.io.InputStream;
 
 public class PhotoAdapter extends RecyclerView.Adapter<PhotoAdapter.ViewHolder> {
     private int[] images;
@@ -25,14 +33,25 @@ public class PhotoAdapter extends RecyclerView.Adapter<PhotoAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(@NonNull PhotoAdapter.ViewHolder holder, final int position) {
-        holder.imageView.setImageResource(images[position]);
+        // 避免OOM
+        BitmapFactory.Options opt = new BitmapFactory.Options();
+        opt.inPreferredConfig = Bitmap.Config.RGB_565;
+        opt.inPurgeable = true;
+        opt.inInputShareable = true;
+        InputStream is = holder.itemView.getResources().openRawResource(images[position]);
+        final Bitmap bitmapImage = BitmapFactory.decodeStream(is, null, opt);
+
+        holder.imageView.setImageBitmap(bitmapImage);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(final View v) {
                 ImageView imageView = new ImageView(v.getContext());
-                imageView.setImageResource(images[position]);
+                imageView.setImageBitmap(bitmapImage);
+
                 Toast toast = new Toast(v.getContext());
                 toast.setView(imageView);
+                // 使圖片width充滿畫面
+                toast.setGravity(Gravity.FILL_HORIZONTAL|Gravity.FILL_VERTICAL, 0, 0);
                 toast.setDuration(Toast.LENGTH_SHORT);
                 toast.show();
             }

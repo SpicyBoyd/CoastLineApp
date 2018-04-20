@@ -1,6 +1,8 @@
 package com.coastline20;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.io.InputStream;
 
 public class SpotAdapter extends RecyclerView.Adapter<SpotAdapter.ViewHolder> {
     private String[] names, rates, infos, activities;
@@ -31,10 +35,18 @@ public class SpotAdapter extends RecyclerView.Adapter<SpotAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, final int position) {
+        // 避免OOM
+        BitmapFactory.Options opt = new BitmapFactory.Options();
+        opt.inPreferredConfig = Bitmap.Config.RGB_565;
+        opt.inPurgeable = true;
+        opt.inInputShareable = true;
+        InputStream is = holder.itemView.getResources().openRawResource(images[position]);
+        final Bitmap bitmapImage = BitmapFactory.decodeStream(is, null, opt);
+
         holder.name.setText(names[position]);
         holder.rate.setText(rates[position]);
         holder.info.setText(infos[position]);
-        holder.image.setImageResource(images[position]);
+        holder.image.setImageBitmap(bitmapImage);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
