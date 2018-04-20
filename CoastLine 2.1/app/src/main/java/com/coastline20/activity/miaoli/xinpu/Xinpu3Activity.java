@@ -41,7 +41,7 @@ public class Xinpu3Activity extends AppCompatActivity {
                 new int[]{R.drawable.xinpuspot3_1,
                         R.drawable.xinpuspot3_2, R.drawable.xinpuspot3_3},
                 R.array.xinpu3_info,
-                "苗栗縣通霄鎮通灣里20-1號");
+                R.array.xinpu_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Xinpu3Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

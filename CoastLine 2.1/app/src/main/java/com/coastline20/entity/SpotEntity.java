@@ -12,13 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SpotEntity {
-    private int tabTitle, toolbarImage, spotName, spotNum;
-    private String address;
+    private int tabTitle, toolbarImage, spotName, spotNum, address;
     private List<Fragment> fragmentList = new ArrayList<>();
 
     // Tab2
     public SpotEntity(Resources resources, int toolbarImage, int spotName, int spotNum,
-                      int[] spotImages, int spotInfo, String address) {
+                      int[] spotImages, int spotInfo, int address) {
         this.tabTitle = R.array.spot_tab2;
         this.toolbarImage = toolbarImage;
         this.spotName = spotName;
@@ -33,7 +32,7 @@ public class SpotEntity {
     // Tab3
     public SpotEntity(Resources resources, int toolbarImage, int spotName, int spotNum,
                       int[] spotImages, int spotInfo, int spotFood, int spotFoodActivity,
-                      String address) {
+                      int address) {
         this.tabTitle = R.array.spot_tab3;
         this.toolbarImage = toolbarImage;
         this.spotName = spotName;
@@ -79,12 +78,11 @@ public class SpotEntity {
         this.spotNum = spotNum;
     }
 
-
-    public String getAddress() {
+    public int getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(int address) {
         this.address = address;
     }
 

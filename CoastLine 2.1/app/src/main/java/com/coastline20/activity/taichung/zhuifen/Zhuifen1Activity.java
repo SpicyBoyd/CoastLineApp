@@ -43,7 +43,7 @@ public class Zhuifen1Activity extends AppCompatActivity {
                 R.array.zhuifen1_info,
                 R.array.zhuifen_food,
                 R.array.zhuifen_food_activity,
-                "台中市大肚區追分火車站");
+                R.array.zhuifen_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -90,7 +90,8 @@ public class Zhuifen1Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

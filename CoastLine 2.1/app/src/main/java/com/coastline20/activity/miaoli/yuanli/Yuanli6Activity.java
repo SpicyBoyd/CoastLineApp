@@ -42,7 +42,7 @@ public class Yuanli6Activity extends AppCompatActivity {
                         R.drawable.yuanlispot6_2, R.drawable.yuanlispot6_3,
                         R.drawable.yuanlispot6_4, R.drawable.yuanlispot6_5},
                 R.array.yuanli6_info,
-                "苗栗縣苑裡鎮苑坑裡2鄰8號");
+                R.array.yuanli_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Yuanli6Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

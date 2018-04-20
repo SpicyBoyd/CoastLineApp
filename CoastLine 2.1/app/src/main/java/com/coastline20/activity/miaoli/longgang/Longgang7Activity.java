@@ -41,7 +41,7 @@ public class Longgang7Activity extends AppCompatActivity {
                 new int[]{R.drawable.longgangspot7_1,
                         R.drawable.longgangspot7_2, R.drawable.longgangspot7_3},
                 R.array.longgang7_info,
-                "苗栗縣後龍鎮過港舊隧道");
+                R.array.longgang_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Longgang7Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 

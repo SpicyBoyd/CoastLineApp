@@ -42,7 +42,7 @@ public class Tongxiao4Activity extends AppCompatActivity {
                         R.drawable.tongxiaospot4_2, R.drawable.tongxiaospot4_3,
                         R.drawable.tongxiaospot4_4, R.drawable.tongxiaospot4_5},
                 R.array.tongxiao4_info,
-                "24.556397, 120.704292");
+                R.array.tongxiao_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Tongxiao4Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

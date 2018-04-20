@@ -41,7 +41,7 @@ public class Xinpu2Activity extends AppCompatActivity {
                 new int[]{R.drawable.xinpuspot2_1,
                         R.drawable.xinpuspot2_2, R.drawable.xinpuspot2_3},
                 R.array.xinpu2_info,
-                "24.540984, 120.694093");
+                R.array.xinpu_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Xinpu2Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

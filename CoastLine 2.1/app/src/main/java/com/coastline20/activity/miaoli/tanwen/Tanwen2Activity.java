@@ -42,7 +42,7 @@ public class Tanwen2Activity extends AppCompatActivity {
                         R.drawable.tanwenspot2_2, R.drawable.tanwenspot2_3,
                         R.drawable.tanwenspot2_4, R.drawable.tanwenspot2_5},
                 R.array.tanwen2_info,
-                "苗栗縣造橋鄉鄭漢紀念碑");
+                R.array.tanwen_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Tanwen2Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 

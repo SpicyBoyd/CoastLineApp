@@ -41,7 +41,7 @@ public class Longgang5Activity extends AppCompatActivity {
                 new int[]{R.drawable.longgangspot5_1,
                         R.drawable.longgangspot5_2},
                 R.array.longgang5_info,
-                "苗栗縣後龍鎮南港里海線鐵路過港貝化石層");
+                R.array.longgang_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Longgang5Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 

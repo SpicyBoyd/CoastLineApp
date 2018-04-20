@@ -43,7 +43,7 @@ public class Baishatun1Activity extends AppCompatActivity {
                 R.array.baishatun1_info,
                 R.array.baishatun_food,
                 R.array.baishatun_food_activity,
-                "苗栗縣通霄鎮白沙屯火車站");
+                R.array.baishatun_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -90,7 +90,8 @@ public class Baishatun1Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

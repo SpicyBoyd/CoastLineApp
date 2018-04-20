@@ -42,7 +42,7 @@ public class Baishatun3Activity extends AppCompatActivity {
                         R.drawable.baishatunspot3_2, R.drawable.baishatunspot3_3, R.drawable.baishatunspot3_4,
                         R.drawable.baishatunspot3_5},
                 R.array.baishatun3_info,
-                "24.573009, 120.708018");
+                R.array.baishatun_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Baishatun3Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 

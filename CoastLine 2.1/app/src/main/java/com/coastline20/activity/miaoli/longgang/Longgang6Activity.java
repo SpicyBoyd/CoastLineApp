@@ -41,7 +41,7 @@ public class Longgang6Activity extends AppCompatActivity {
                 new int[]{R.drawable.longgangspot6_1,
                         R.drawable.longgangspot6_2, R.drawable.longgangspot6_3},
                 R.array.longgang6_info,
-                "苗栗縣後龍鎮海角樂園");
+                R.array.longgang_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Longgang6Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 

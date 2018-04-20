@@ -42,7 +42,7 @@ public class Qingshui6Activity extends AppCompatActivity {
                         R.drawable.qingshuispot6_2, R.drawable.qingshuispot6_3,
                         R.drawable.qingshuispot6_4, R.drawable.qingshuispot6_5},
                 R.array.qingshui6_info,
-                "台中市清水區光華路125號清水國小");
+                R.array.qingshui_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Qingshui6Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

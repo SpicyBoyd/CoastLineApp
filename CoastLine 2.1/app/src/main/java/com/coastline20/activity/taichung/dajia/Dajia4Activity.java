@@ -42,7 +42,7 @@ public class Dajia4Activity extends AppCompatActivity {
                         R.drawable.dajiaspot4_2, R.drawable.dajiaspot4_3,
                         R.drawable.dajiaspot4_4, R.drawable.dajiaspot4_5},
                 R.array.dajia4_info,
-                "台中市大甲區文武路116號文昌祠");
+                R.array.dajia_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Dajia4Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

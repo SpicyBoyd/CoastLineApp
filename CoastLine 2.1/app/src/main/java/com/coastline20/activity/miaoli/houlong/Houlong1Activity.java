@@ -43,7 +43,7 @@ public class Houlong1Activity extends AppCompatActivity {
                 R.array.houlong1_info,
                 R.array.houlong_food,
                 R.array.houlong_food_activity,
-                "苗栗縣後龍鎮北龍里車站街127-2號");
+                R.array.houlong_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -90,7 +90,8 @@ public class Houlong1Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 

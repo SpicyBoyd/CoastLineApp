@@ -41,7 +41,7 @@ public class Rinan1Activity extends AppCompatActivity {
                 new int[]{R.drawable.rinanspot1_1,
                         R.drawable.rinanspot1_2, R.drawable.rinanspot1_3},
                 R.array.rinan1_info,
-                "臺中市大甲區日南車站");
+                R.array.rinan_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Rinan1Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

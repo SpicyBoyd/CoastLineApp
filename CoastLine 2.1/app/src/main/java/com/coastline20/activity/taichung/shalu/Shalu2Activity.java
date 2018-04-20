@@ -42,7 +42,7 @@ public class Shalu2Activity extends AppCompatActivity {
                         R.drawable.shaluspot2_2, R.drawable.shaluspot2_3,
                         R.drawable.shaluspot2_4, R.drawable.shaluspot2_5},
                 R.array.shalu2_info,
-                "台中市沙鹿區中正街美秀巷1號美仁里");
+                R.array.shalu_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Shalu2Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

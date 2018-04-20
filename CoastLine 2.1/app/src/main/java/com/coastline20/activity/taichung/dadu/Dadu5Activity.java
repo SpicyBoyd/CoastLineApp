@@ -42,7 +42,7 @@ public class Dadu5Activity extends AppCompatActivity {
                         R.drawable.daduspot5_2, R.drawable.daduspot5_3,
                         R.drawable.daduspot5_4, R.drawable.daduspot5_5},
                 R.array.dadu5_info,
-                "台中縣大肚鄉瑞井村瑞井社區");
+                R.array.dadu_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Dadu5Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

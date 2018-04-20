@@ -42,7 +42,7 @@ public class Dajia5Activity extends AppCompatActivity {
                         R.drawable.dajiaspot5_2, R.drawable.dajiaspot5_3,
                         R.drawable.dajiaspot5_4, R.drawable.dajiaspot5_5},
                 R.array.dajia5_info,
-                "台中市大甲區鐵砧山風景區遊客服務中心");
+                R.array.dajia_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Dajia5Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

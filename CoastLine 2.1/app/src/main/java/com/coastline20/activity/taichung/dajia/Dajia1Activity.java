@@ -43,7 +43,7 @@ public class Dajia1Activity extends AppCompatActivity {
                 R.array.dajia1_info,
                 R.array.dajia_food,
                 R.array.dajia_food_activity,
-                "24.344436, 120.626985");
+                R.array.dajia_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -90,7 +90,8 @@ public class Dajia1Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

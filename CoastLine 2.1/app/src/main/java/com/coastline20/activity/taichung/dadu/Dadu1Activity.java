@@ -43,7 +43,7 @@ public class Dadu1Activity extends AppCompatActivity {
                 R.array.dadu1_info,
                 R.array.dadu_food,
                 R.array.dadu_food_activity,
-                "台中市大肚區大肚火車站");
+                R.array.dadu_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -90,7 +90,8 @@ public class Dadu1Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

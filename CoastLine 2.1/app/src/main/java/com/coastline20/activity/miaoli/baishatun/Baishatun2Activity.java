@@ -40,7 +40,7 @@ public class Baishatun2Activity extends AppCompatActivity {
                 2,
                 new int[]{R.drawable.baishatunspot2_1, R.drawable.baishatunspot2_2},
                 R.array.baishatun2_info,
-                "苗栗縣通霄鎮白東里2鄰8號拱天宮");
+                R.array.baishatun_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -87,7 +87,8 @@ public class Baishatun2Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 

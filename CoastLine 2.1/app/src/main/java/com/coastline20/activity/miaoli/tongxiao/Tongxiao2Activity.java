@@ -41,7 +41,7 @@ public class Tongxiao2Activity extends AppCompatActivity {
                 new int[]{R.drawable.tongxiaospot2_1,
                         R.drawable.tongxiaospot2_2, R.drawable.tongxiaospot2_3},
                 R.array.tongxiao2_info,
-                "苗栗縣通霄鎮中正路8號通霄神社");
+                R.array.tongxiao_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Tongxiao2Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

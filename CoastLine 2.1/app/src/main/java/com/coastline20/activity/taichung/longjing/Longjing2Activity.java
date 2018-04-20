@@ -41,7 +41,7 @@ public class Longjing2Activity extends AppCompatActivity {
                 new int[]{R.drawable.longjingspot2_1,
                         R.drawable.longjingspot2_2},
                 R.array.longjing2_info,
-                "臺中市龍井區龍目井");
+                R.array.longjing_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Longjing2Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

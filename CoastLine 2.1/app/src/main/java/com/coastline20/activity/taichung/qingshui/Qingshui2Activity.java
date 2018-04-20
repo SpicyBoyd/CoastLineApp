@@ -40,7 +40,7 @@ public class Qingshui2Activity extends AppCompatActivity {
                 2,
                 new int[]{R.drawable.qingshuispot2_1},
                 R.array.qingshui2_info,
-                "臺中市清水區清水車站");
+                R.array.qingshui_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -87,7 +87,8 @@ public class Qingshui2Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

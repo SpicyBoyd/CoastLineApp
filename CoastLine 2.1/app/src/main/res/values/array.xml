@@ -46,6 +46,10 @@
         <item>木造車站</item>
         <item>眺望中港溪畔的農田</item>
     </string-array>
+    <string-array name="tanwen_spot_address">
+        <item>苗栗縣造橋鄉談文車站</item>
+        <item>苗栗縣造橋鄉鄭漢紀念碑</item>
+    </string-array>
     <string-array name="tanwen_spot_activity">
         <item>com.coastline20.activity.miaoli.tanwen.Tanwen1Activity</item>
         <item>com.coastline20.activity.miaoli.tanwen.Tanwen2Activity</item>
@@ -70,6 +74,9 @@
     <string-array name="dashan_spot_info">
         <item>木造車站</item>
     </string-array>
+    <string-array name="dashan_spot_address">
+        <item>苗栗縣後龍鎮大山里明山路180號大山車站</item>
+    </string-array>
     <string-array name="dashan_spot_activity">
         <item>com.coastline20.activity.miaoli.dashan.Dashan1Activity</item>
     </string-array>
@@ -87,6 +94,9 @@
     </string-array>
     <string-array name="houlong_spot_info">
         <item>高架路線車站</item>
+    </string-array>
+    <string-array name="houlong_spot_address">
+        <item>苗栗縣後龍鎮北龍里車站街127–2號</item>
     </string-array>
     <string-array name="houlong_spot_activity">
         <item>com.coastline20.activity.miaoli.houlong.Houlong1Activity</item>
@@ -154,6 +164,15 @@
         <item>純白風車、湛藍海景、還有一道彩虹</item>
         <item>鐵路懷舊隧道</item>
     </string-array>
+    <string-array name="longgang_spot_address">
+        <item>苗栗縣後龍鎮龍港車站</item>
+        <item>苗栗縣後龍鎮公司寮漁港</item>
+        <item>苗栗縣後龍鎮舊後汶公路121號同興老街</item>
+        <item>苗栗縣後龍鎮苗33線後龍好望角</item>
+        <item>苗栗縣後龍鎮南港里海線鐵路過港貝化石層</item>
+        <item>苗栗縣後龍鎮海角樂園</item>
+        <item>苗栗縣後龍鎮過港舊隧道</item>
+    </string-array>
     <string-array name="longgang_spot_activity">
         <item>com.coastline20.activity.miaoli.longgang.Longgang1Activity</item>
         <item>com.coastline20.activity.miaoli.longgang.Longgang2Activity</item>
@@ -205,6 +224,11 @@
         <item> </item>
         <item>媽祖廟</item>
         <item>有海、有沙、有風車</item>
+    </string-array>
+    <string-array name="baishatun_spot_address">
+        <item>苗栗縣通霄鎮白沙屯火車站</item>
+        <item>苗栗縣通霄鎮白東里2鄰8號拱天宮</item>
+        <item>24.573009, 120.708018</item>
     </string-array>
     <string-array name="baishatun_spot_activity">
         <item>com.coastline20.activity.miaoli.baishatun.Baishatun1Activity</item>
@@ -271,6 +295,11 @@
         <item>漸層海浪，陰陽海</item>
         <item>人物、動物的塑像</item>
     </string-array>
+    <string-array name="xinpu_spot_address">
+        <item>苗栗縣通霄鎮新埔車站</item>
+        <item>24.540984, 120.694093</item>
+        <item>苗栗縣通霄鎮通灣里20–1號</item>
+    </string-array>
     <string-array name="xinpu_spot_activity">
         <item>com.coastline20.activity.miaoli.xinpu.Xinpu1Activity</item>
         <item>com.coastline20.activity.miaoli.xinpu.Xinpu2Activity</item>
@@ -309,6 +338,13 @@
         <item>感受海岸的美麗、山景的壯麗</item>
         <item>不只鹹，還有深度</item>
         <item>需要入場券</item>
+    </string-array>
+    <string-array name="tongxiao_spot_address">
+        <item>苗栗縣通霄鎮通西里中山路109號</item>
+        <item>苗栗縣通霄鎮中正路8號通霄神社</item>
+        <item>24.492791, 120.683474</item>
+        <item>24.556397, 120.704292</item>
+        <item>苗栗縣通霄鎮海濱路41之1號</item>
     </string-array>
     <string-array name="tongxiao_spot_activity">
         <item>com.coastline20.activity.miaoli.tongxiao.Tongxiao1Activity</item>
@@ -401,6 +437,14 @@
         <item>紀錄過去的繁華</item>
         <item>古裝劇拍攝場景</item>
     </string-array>
+    <string-array name="yuanli_spot_address">
+        <item>苗栗縣苑裡鎮苑北里中山路165號苑裡車站</item>
+        <item>苗栗縣苑裡鎮天下路老街</item>
+        <item>苗栗縣苑裡鎮房裡老街房里古城</item>
+        <item>苗栗縣苑裡鎮舊社里10鄰47號</item>
+        <item>苗栗縣苑裡鎮彎麗路99號藺草文化館</item>
+        <item>苗栗縣苑裡鎮苑坑裡2鄰8號</item>
+    </string-array>
     <string-array name="yuanli_spot_activity">
         <item>com.coastline20.activity.miaoli.yuanli.Yuanli1Activity</item>
         <item>com.coastline20.activity.miaoli.yuanli.Yuanli2Activity</item>
@@ -456,6 +500,10 @@
         <item>木造車站</item>
         <item>一邊散步、一邊做體操</item>
     </string-array>
+    <string-array name="rinan_spot_address">
+        <item>臺中市大甲區日南車站</item>
+        <item>24.376108, 120.652254</item>
+    </string-array>
     <string-array name="rinan_spot_activity">
         <item>com.coastline20.activity.taichung.rinan.Rinan1Activity</item>
         <item>com.coastline20.activity.taichung.rinan.Rinan2Activity</item>
@@ -492,6 +540,14 @@
         <item>大甲最早的學校</item>
         <item>劍井、忠烈祠、延平郡王像</item>
         <item>奶油酥餅</item>
+    </string-array>
+    <string-array name="dajia_spot_address">
+        <item>24.344436, 120.626985</item>
+        <item>台中市大甲區順天路158號</item>
+        <item>台中市大甲區順天路與光明路交叉口</item>
+        <item>台中市大甲區文武路116號文昌祠</item>
+        <item>台中市大甲區鐵砧山風景區遊客服務中心</item>
+        <item>台中市大甲區光明路67號裕珍馨</item>
     </string-array>
     <string-array name="dajia_spot_activity">
         <item>com.coastline20.activity.taichung.dajia.Dajia1Activity</item>
@@ -543,6 +599,9 @@
     <string-array name="taichung_port_spot_info">
         <item>離臺中港甚遠</item>
     </string-array>
+    <string-array name="taichung_port_spot_address">
+        <item>臺中市清水區頂湳里甲南路2號</item>
+    </string-array>
     <string-array name="taichung_port_spot_activity">
         <item>com.coastline20.activity.taichung.taichung_port.TaichungPort1Activity</item>
     </string-array>
@@ -586,6 +645,18 @@
         <item>親子玩耍、民眾休閒的好去處</item>
         <item>日治時代的軍備地道</item>
         <item>考古遺址</item>
+    </string-array>
+    <string-array name="qingshui_spot_address">
+        <item>臺中市清水區南社里中正街115號</item>
+        <item>臺中市清水區清水車站</item>
+        <item>台中市清水區忠貞路21號港區藝術中心</item>
+        <item>台中市清水區鎮政路101號清水眷村文化園區</item>
+        <item>台中市清水區高南里美堤街八號高美溼地遊客中心</item>
+        <item>台中市清水區光華路125號清水國小</item>
+        <item>台中市清水區趙家古厝</item>
+        <item>台中市清水區大街路觀音巷36–8號鰲峰山市鎮公園</item>
+        <item>台中市清水區清水鬼洞</item>
+        <item>台中市清水區鰲海路59號牛罵頭遺址</item>
     </string-array>
     <string-array name="qingshui_spot_activity">
         <item>com.coastline20.activity.taichung.qingshui.Qingshui1Activity</item>
@@ -670,6 +741,11 @@
         <item>純粹以老台灣的畫作呈現</item>
         <item>沙鹿的著名老街</item>
     </string-array>
+    <string-array name="shalu_spot_address">
+        <item>臺中市沙鹿區中正街94號</item>
+        <item>台中市沙鹿區中正街美秀巷1號美仁里</item>
+        <item>台中市沙鹿區四平街</item>
+    </string-array>
     <string-array name="shalu_spot_activity">
         <item>com.coastline20.activity.taichung.shalu.Shalu1Activity</item>
         <item>com.coastline20.activity.taichung.shalu.Shalu2Activity</item>
@@ -710,6 +786,12 @@
         <item>地中海藍白特色建築</item>
         <item>集人文、藝術景觀和社區意識之大成</item>
     </string-array>
+    <string-array name="longjing_spot_address">
+        <item>24.197438, 120.543452</item>
+        <item>臺中市龍井區龍目井</item>
+        <item>24.198935, 120.498841</item>
+        <item>台中市龍井區藝術街</item>
+    </string-array>
     <string-array name="longjing_spot_activity">
         <item>com.coastline20.activity.taichung.longjing.Longjing1Activity</item>
         <item>com.coastline20.activity.taichung.longjing.Longjing2Activity</item>
@@ -738,7 +820,6 @@
         <item>美食部落格</item>
     </string-array>
 
-
     <string-array name="dadu_spot_name">
         <item>大肚車站</item>
         <item>磺溪書院</item>
@@ -762,6 +843,14 @@
         <item> </item>
         <item>以瑞井古井命名的村莊</item>
         <item>郊山等級的步道</item>
+    </string-array>
+    <string-array name="dadu_spot_address">
+        <item>台中市大肚區大肚火車站</item>
+        <item>台中市大肚區文昌路60號磺溪書院</item>
+        <item>台中市南屯區中台路望高寮夜景公園</item>
+        <item>台中市大肚區華山路大肚區環保運動公園</item>
+        <item>台中縣大肚鄉瑞井村瑞井社區</item>
+        <item>台中市大肚區大肚山萬里長城</item>
     </string-array>
     <string-array name="dadu_spot_activity">
         <item>com.coastline20.activity.taichung.dadu.Dadu1Activity</item>
@@ -822,6 +911,10 @@
     <string-array name="zhuifen_spot_info">
         <item>紀念車票，追分－成功</item>
         <item>追分成功、成功追婚</item>
+    </string-array>
+    <string-array name="zhuifen_spot_address">
+        <item>台中市大肚區追分火車站</item>
+        <item>台中市大肚區追分火車站</item>
     </string-array>
     <string-array name="zhuifen_spot_activity">
         <item>com.coastline20.activity.taichung.zhuifen.Zhuifen1Activity</item>

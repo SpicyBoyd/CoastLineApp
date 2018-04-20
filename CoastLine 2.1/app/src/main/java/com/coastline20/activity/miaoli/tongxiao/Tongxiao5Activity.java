@@ -42,7 +42,7 @@ public class Tongxiao5Activity extends AppCompatActivity {
                         R.drawable.tongxiaospot5_2, R.drawable.tongxiaospot5_3,
                         R.drawable.tongxiaospot5_4, R.drawable.tongxiaospot5_5},
                 R.array.tongxiao5_info,
-                "苗栗縣通霄鎮海濱路41之1號");
+                R.array.tongxiao_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Tongxiao5Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

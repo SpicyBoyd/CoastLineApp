@@ -41,7 +41,7 @@ public class Longgang3Activity extends AppCompatActivity {
                 new int[]{R.drawable.longgangspot3_1,
                         R.drawable.longgangspot3_2, R.drawable.longgangspot3_3},
                 R.array.longgang3_info,
-                "苗栗縣後龍鎮舊後汶公路121號同興老街");
+                R.array.longgang_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Longgang3Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

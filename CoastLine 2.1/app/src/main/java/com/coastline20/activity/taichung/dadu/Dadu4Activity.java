@@ -42,7 +42,7 @@ public class Dadu4Activity extends AppCompatActivity {
                         R.drawable.daduspot4_2, R.drawable.daduspot4_3,
                         R.drawable.daduspot4_4, R.drawable.daduspot4_5},
                 R.array.dadu4_info,
-                "台中市大肚區華山路大肚區環保運動公園");
+                R.array.dadu_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Dadu4Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

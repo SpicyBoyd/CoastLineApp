@@ -41,7 +41,7 @@ public class TaichungPort1Activity extends AppCompatActivity {
                 new int[]{R.drawable.taichungportspot1_1,
                         R.drawable.taichungportspot1_2, R.drawable.taichungportspot1_3},
                 R.array.taichung_port1_info,
-                "臺中市清水區頂湳里甲南路2號");
+                R.array.taichung_port_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class TaichungPort1Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

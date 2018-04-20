@@ -41,7 +41,7 @@ public class Dajia2Activity extends AppCompatActivity {
                 new int[]{R.drawable.dajiaspot2_1,
                         R.drawable.dajiaspot2_2},
                 R.array.dajia2_info,
-                "台中市大甲區順天路158號");
+                R.array.dajia_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -88,7 +88,8 @@ public class Dajia2Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

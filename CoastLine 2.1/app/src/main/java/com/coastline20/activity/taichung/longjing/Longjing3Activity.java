@@ -42,7 +42,7 @@ public class Longjing3Activity extends AppCompatActivity {
                         R.drawable.longjingspot3_2, R.drawable.longjingspot3_3,
                         R.drawable.longjingspot3_4, R.drawable.longjingspot3_5},
                 R.array.longjing3_info,
-                "24.198935, 120.498841");
+                R.array.longjing_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -89,7 +89,8 @@ public class Longjing3Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }

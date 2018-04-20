@@ -43,7 +43,7 @@ public class Tongxiao1Activity extends AppCompatActivity {
                 R.array.tongxiao1_info,
                 R.array.tongxiao_food,
                 R.array.tongxiao_food_activity,
-                "苗栗縣通霄鎮通西里中山路109號");
+                R.array.tongxiao_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }
 
@@ -90,7 +90,8 @@ public class Tongxiao1Activity extends AppCompatActivity {
 
     // 設定 FloatingActionButton
     public void mapGuide(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + entity.getAddress()));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" +
+                getResources().getStringArray(entity.getAddress())[entity.getSpotNum()]));
         startActivity(intent);
     }
 }
