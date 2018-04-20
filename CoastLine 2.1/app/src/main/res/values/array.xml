@@ -47,8 +47,8 @@
         <item>眺望中港溪畔的農田</item>
     </string-array>
     <string-array name="tanwen_spot_activity">
-        <item>com.coastline20.miaoli.tanwen.Tanwen1Activity</item>
-        <item>com.coastline20.miaoli.tanwen.Tanwen2Activity</item>
+        <item>com.coastline20.activity.miaoli.tanwen.Tanwen1Activity</item>
+        <item>com.coastline20.activity.miaoli.tanwen.Tanwen2Activity</item>
     </string-array>
     <string-array name="tanwen1_info">
         <item>*  談文車站的行人天橋為別具特色的心鎖橋</item>
@@ -71,7 +71,7 @@
         <item>木造車站</item>
     </string-array>
     <string-array name="dashan_spot_activity">
-        <item>com.coastline20.miaoli.dashan.Dashan1Activity</item>
+        <item>com.coastline20.activity.miaoli.dashan.Dashan1Activity</item>
     </string-array>
     <string-array name="dashan1_info">
         <item>*  日式木造車站之一</item>
@@ -89,10 +89,18 @@
         <item>高架路線車站</item>
     </string-array>
     <string-array name="houlong_spot_activity">
-        <item>com.coastline20.miaoli.houlong.Houlong1Activity</item>
+        <item>com.coastline20.activity.miaoli.houlong.Houlong1Activity</item>
     </string-array>
     <string-array name="houlong1_info">
         <item>*  後龍是海線傳統六大站（後龍、通霄、苑裡、大甲、清水、沙鹿）之一</item>
+    </string-array>
+    <string-array name="houlong_food_activity">
+        <item>com.coastline20.activity.miaoli.houlong.food.HoulongFood1Activity</item>
+        <item>com.coastline20.activity.miaoli.houlong.food.HoulongFood2Activity</item>
+        <item>com.coastline20.activity.miaoli.houlong.food.HoulongFood3Activity</item>
+        <item>com.coastline20.activity.miaoli.houlong.food.HoulongFood4Activity</item>
+        <item>com.coastline20.activity.miaoli.houlong.food.HoulongFood5Activity</item>
+        <item>com.coastline20.activity.miaoli.houlong.food.HoulongFood6Activity</item>
     </string-array>
     <string-array name="houlong_food">
         <item>黑輪伯</item>
@@ -147,13 +155,13 @@
         <item>鐵路懷舊隧道</item>
     </string-array>
     <string-array name="longgang_spot_activity">
-        <item>com.coastline20.miaoli.longgang.Longgang1Activity</item>
-        <item>com.coastline20.miaoli.longgang.Longgang2Activity</item>
-        <item>com.coastline20.miaoli.longgang.Longgang3Activity</item>
-        <item>com.coastline20.miaoli.longgang.Longgang4Activity</item>
-        <item>com.coastline20.miaoli.longgang.Longgang5Activity</item>
-        <item>com.coastline20.miaoli.longgang.Longgang6Activity</item>
-        <item>com.coastline20.miaoli.longgang.Longgang7Activity</item>
+        <item>com.coastline20.activity.miaoli.longgang.Longgang1Activity</item>
+        <item>com.coastline20.activity.miaoli.longgang.Longgang2Activity</item>
+        <item>com.coastline20.activity.miaoli.longgang.Longgang3Activity</item>
+        <item>com.coastline20.activity.miaoli.longgang.Longgang4Activity</item>
+        <item>com.coastline20.activity.miaoli.longgang.Longgang5Activity</item>
+        <item>com.coastline20.activity.miaoli.longgang.Longgang6Activity</item>
+        <item>com.coastline20.activity.miaoli.longgang.Longgang7Activity</item>
     </string-array>
     <string-array name="longgang1_info">
         <item>*  縱貫線上被遺忘的小站，目前是無站員的一站，僅停靠區間車</item>
@@ -199,9 +207,9 @@
         <item>有海、有沙、有風車</item>
     </string-array>
     <string-array name="baishatun_spot_activity">
-        <item>com.coastline20.miaoli.baishatun.Baishatun1Activity</item>
-        <item>com.coastline20.miaoli.baishatun.Baishatun2Activity</item>
-        <item>com.coastline20.miaoli.baishatun.Baishatun3Activity</item>
+        <item>com.coastline20.activity.miaoli.baishatun.Baishatun1Activity</item>
+        <item>com.coastline20.activity.miaoli.baishatun.Baishatun2Activity</item>
+        <item>com.coastline20.activity.miaoli.baishatun.Baishatun3Activity</item>
     </string-array>
     <string-array name="baishatun1_info">
         <item>*  白沙屯原地名為白沙墩，是指白沙(海鹽)堆積如山丘的意思。</item>
@@ -218,6 +226,13 @@
     <string-array name="baishatun3_info">
         <item>*  札記：\n駐足沙灘，讚嘆風車之美，亦可等待夕陽西下、晚霞餘暉。</item>
         <item>*  這裡有臺灣最美海灘之一的封號，也是看風車的好地方。</item>
+    </string-array>
+    <string-array name="baishatun_food_activity">
+        <item>com.coastline20.activity.miaoli.baishatun.food.BaishatunFood1Activity</item>
+        <item>com.coastline20.activity.miaoli.baishatun.food.BaishatunFood2Activity</item>
+        <item>com.coastline20.activity.miaoli.baishatun.food.BaishatunFood3Activity</item>
+        <item>com.coastline20.activity.miaoli.baishatun.food.BaishatunFood4Activity</item>
+        <item>com.coastline20.activity.miaoli.baishatun.food.BaishatunFood5Activity</item>
     </string-array>
     <string-array name="baishatun_food">
         <item>石蓮園</item>
@@ -257,9 +272,9 @@
         <item>人物、動物的塑像</item>
     </string-array>
     <string-array name="xinpu_spot_activity">
-        <item>com.coastline20.miaoli.xinpu.Xinpu1Activity</item>
-        <item>com.coastline20.miaoli.xinpu.Xinpu2Activity</item>
-        <item>com.coastline20.miaoli.xinpu.Xinpu3Activity</item>
+        <item>com.coastline20.activity.miaoli.xinpu.Xinpu1Activity</item>
+        <item>com.coastline20.activity.miaoli.xinpu.Xinpu2Activity</item>
+        <item>com.coastline20.activity.miaoli.xinpu.Xinpu3Activity</item>
     </string-array>
     <string-array name="xinpu1_info">
         <item>*  日式木造車站之一，也是距離海岸線最近的車站</item>
@@ -296,11 +311,11 @@
         <item>需要入場券</item>
     </string-array>
     <string-array name="tongxiao_spot_activity">
-        <item>com.coastline20.miaoli.tongxiao.Tongxiao1Activity</item>
-        <item>com.coastline20.miaoli.tongxiao.Tongxiao2Activity</item>
-        <item>com.coastline20.miaoli.tongxiao.Tongxiao3Activity</item>
-        <item>com.coastline20.miaoli.tongxiao.Tongxiao4Activity</item>
-        <item>com.coastline20.miaoli.tongxiao.Tongxiao5Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.Tongxiao1Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.Tongxiao2Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.Tongxiao3Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.Tongxiao4Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.Tongxiao5Activity</item>
     </string-array>
     <string-array name="tongxiao1_info">
         <item>*  根據通霄鎮志記載：「通霄」一名由來，原是平埔族原住民道卡斯族之「風呢樣」，一名「屯消」社之所在</item>
@@ -327,7 +342,17 @@
         <item>*  入場券：只要在火車站附近的商店買東西，都可以跟他要入場券。如果忘記在火車站附近要入場券，可以在海水浴場裡頭消費，也會給入場券</item>
         <item>*  通霄海水浴場位於苗栗，是中部少見的海水浴場，過去曾荒蕪3年，無法開放，一直到2012年才重新開放，提供海域戲水與沙灘活動。暑假期間還會舉辦各種活動吸引大家來參加</item>
     </string-array>
+    <string-array name="tongxiao_food_activity">
+        <item>com.coastline20.activity.miaoli.tongxiao.food.TongxiaoFoodBlogActivity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.food.TongxiaoFood1Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.food.TongxiaoFood2Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.food.TongxiaoFood3Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.food.TongxiaoFood4Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.food.TongxiaoFood5Activity</item>
+        <item>com.coastline20.activity.miaoli.tongxiao.food.TongxiaoFood6Activity</item>
+    </string-array>
     <string-array name="tongxiao_food">
+        <item>美食部落格</item>
         <item>綠色小木屋</item>
         <item>小倆口自助冰店</item>
         <item>王煎包</item>
@@ -377,12 +402,12 @@
         <item>古裝劇拍攝場景</item>
     </string-array>
     <string-array name="yuanli_spot_activity">
-        <item>com.coastline20.miaoli.yuanli.Yuanli1Activity</item>
-        <item>com.coastline20.miaoli.yuanli.Yuanli2Activity</item>
-        <item>com.coastline20.miaoli.yuanli.Yuanli3Activity</item>
-        <item>com.coastline20.miaoli.yuanli.Yuanli4Activity</item>
-        <item>com.coastline20.miaoli.yuanli.Yuanli5Activity</item>
-        <item>com.coastline20.miaoli.yuanli.Yuanli6Activity</item>
+        <item>com.coastline20.activity.miaoli.yuanli.Yuanli1Activity</item>
+        <item>com.coastline20.activity.miaoli.yuanli.Yuanli2Activity</item>
+        <item>com.coastline20.activity.miaoli.yuanli.Yuanli3Activity</item>
+        <item>com.coastline20.activity.miaoli.yuanli.Yuanli4Activity</item>
+        <item>com.coastline20.activity.miaoli.yuanli.Yuanli5Activity</item>
+        <item>com.coastline20.activity.miaoli.yuanli.Yuanli6Activity</item>
     </string-array>
     <string-array name="yuanli1_info">
         <item>*   苑裡是苗栗縣在海線的最後一站，同時也是沿海三鎮（後龍、通霄、苑裡）中人口最多、最熱鬧的</item>
@@ -409,6 +434,14 @@
         <item>*  歷經一百三十餘年時間，依舊展現唐山師父細緻結實建築工法，以及紅磚瓦與交趾陶的精緻藝術，這就是位於苑裡中溝溪畔的『東里家風』</item>
         <item>*  台灣少見並保存良好的『東里家風』，是棟傳承文化藝術與先民生活歷史痕跡的百年三合院建築，為三級古蹟，古厝結合古蹟文化與觀光休閒功能，提供導覽、餐飲及民宿等服務，更是電影電視熱門拍攝場景</item>
     </string-array>
+    <string-array name="yuanli_food_activity">
+        <item>com.coastline20.activity.miaoli.yuanli.food.YuanliFoodBlog1Activity</item>
+        <item>com.coastline20.activity.miaoli.yuanli.food.YuanliFoodBlog2Activity</item>
+    </string-array>
+    <string-array name="yuanli_food">
+        <item>美食部落格_1</item>
+        <item>美食部落格_2</item>
+    </string-array>
 
     <!--台中車站-->
     <string-array name="rinan_spot_name">
@@ -424,8 +457,8 @@
         <item>一邊散步、一邊做體操</item>
     </string-array>
     <string-array name="rinan_spot_activity">
-        <item>com.coastline20.taichung.rinan.Rinan1Activity</item>
-        <item>com.coastline20.taichung.rinan.Rinan2Activity</item>
+        <item>com.coastline20.activity.taichung.rinan.Rinan1Activity</item>
+        <item>com.coastline20.activity.taichung.rinan.Rinan2Activity</item>
     </string-array>
     <string-array name="rinan1_info">
         <item>*  日式木造車站之一</item>
@@ -461,12 +494,12 @@
         <item>奶油酥餅</item>
     </string-array>
     <string-array name="dajia_spot_activity">
-        <item>com.coastline20.taichung.dajia.Dajia1Activity</item>
-        <item>com.coastline20.taichung.dajia.Dajia2Activity</item>
-        <item>com.coastline20.taichung.dajia.Dajia3Activity</item>
-        <item>com.coastline20.taichung.dajia.Dajia4Activity</item>
-        <item>com.coastline20.taichung.dajia.Dajia5Activity</item>
-        <item>com.coastline20.taichung.dajia.Dajia6Activity</item>
+        <item>com.coastline20.activity.taichung.dajia.Dajia1Activity</item>
+        <item>com.coastline20.activity.taichung.dajia.Dajia2Activity</item>
+        <item>com.coastline20.activity.taichung.dajia.Dajia3Activity</item>
+        <item>com.coastline20.activity.taichung.dajia.Dajia4Activity</item>
+        <item>com.coastline20.activity.taichung.dajia.Dajia5Activity</item>
+        <item>com.coastline20.activity.taichung.dajia.Dajia6Activity</item>
     </string-array>
     <string-array name="dajia1_info">
         <item>*  海線鐵路過了大安溪，就來到了大甲車站。大甲不只是海線六大站之一，而且還是海線第一大站</item>
@@ -494,6 +527,12 @@
     <string-array name="dajia6_info">
         <item>*  大甲著名的奶油酥餅專賣店</item>
     </string-array>
+    <string-array name="dajia_food_activity">
+        <item>com.coastline20.activity.taichung.dajia.food.DajiaFoodBlogActivity</item>
+    </string-array>
+    <string-array name="dajia_food">
+        <item>美食部落格</item>
+    </string-array>
 
     <string-array name="taichung_port_spot_name">
         <item>臺中港車站</item>
@@ -505,7 +544,7 @@
         <item>離臺中港甚遠</item>
     </string-array>
     <string-array name="taichung_port_spot_activity">
-        <item>com.coastline20.taichung.taichung_port.TaichungPort1Activity</item>
+        <item>com.coastline20.activity.taichung.taichung_port.TaichungPort1Activity</item>
     </string-array>
     <string-array name="taichung_port1_info">
         <item>*  因站內有一條路線通往臺中港區而得名。實際上臺中港車站與真正的臺中港可說有一大段距離</item>
@@ -549,16 +588,16 @@
         <item>考古遺址</item>
     </string-array>
     <string-array name="qingshui_spot_activity">
-        <item>com.coastline20.taichung.qingshui.Qingshui1Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui2Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui3Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui4Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui5Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui6Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui7Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui8Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui9Activity</item>
-        <item>com.coastline20.taichung.qingshui.Qingshui10Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui1Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui2Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui3Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui4Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui5Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui6Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui7Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui8Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui9Activity</item>
+        <item>com.coastline20.activity.taichung.qingshui.Qingshui10Activity</item>
     </string-array>
     <string-array name="qingshui1_info">
         <item>*  清水舊名牛罵頭，原為平埔族「牛罵社」所在地</item>
@@ -609,6 +648,12 @@
         <item>*  「牛罵頭遺址」為臺灣中部地區新石器時代中期文化的代表，並以此地名作為本文化類型的命名，亦為國內第一個「命名遺址」，出土陶器以紅、褐色繩紋陶為主</item>
         <item>*  園區規劃兼具保存文化資產與展示教育的用途，不僅展出文化遺址介紹、出土文物典藏、考古挖掘方式等讓大家認識臺灣中部地區過去人類的生活面貌與拓墾歷程，還有日治時期神社留下來的遺跡以及原軍事營區的建築設施設置在其中，是一處蘊藏豐富歷史文化意義的空間</item>
     </string-array>
+    <string-array name="qingshui_food_activity">
+        <item>com.coastline20.activity.taichung.qingshui.food.QingshuiFoodBlogActivity</item>
+    </string-array>
+    <string-array name="qingshui_food">
+        <item>美食部落格</item>
+    </string-array>
 
     <string-array name="shalu_spot_name">
         <item>沙鹿車站</item>
@@ -626,9 +671,9 @@
         <item>沙鹿的著名老街</item>
     </string-array>
     <string-array name="shalu_spot_activity">
-        <item>com.coastline20.taichung.shalu.Shalu1Activity</item>
-        <item>com.coastline20.taichung.shalu.Shalu2Activity</item>
-        <item>com.coastline20.taichung.shalu.Shalu3Activity</item>
+        <item>com.coastline20.activity.taichung.shalu.Shalu1Activity</item>
+        <item>com.coastline20.activity.taichung.shalu.Shalu2Activity</item>
+        <item>com.coastline20.activity.taichung.shalu.Shalu3Activity</item>
     </string-array>
     <string-array name="shalu1_info">
         <item>*  沙鹿車站是海線六大站最南端的一個</item>
@@ -639,6 +684,12 @@
     </string-array>
     <string-array name="shalu3_info">
         <item>*  四平街則是沙鹿的著名老街，是沙鹿地區早期開發的商業聚落，街長大約400公尺，兩旁商店林立，特別是以金成發為代表的金紙店、成興商行…等，動輒是超過60年的老店。街上信仰中心有保安宮(三山國王廟)、玉皇殿及教會，前兩者是每年大甲媽遶境行程中的宮廟</item>
+    </string-array>
+    <string-array name="shalu_food_activity">
+        <item>com.coastline20.activity.taichung.shalu.food.ShaluFoodBlogActivity</item>
+    </string-array>
+    <string-array name="shalu_food">
+        <item>美食部落格</item>
     </string-array>
 
     <string-array name="longjing_spot_name">
@@ -660,10 +711,10 @@
         <item>集人文、藝術景觀和社區意識之大成</item>
     </string-array>
     <string-array name="longjing_spot_activity">
-        <item>com.coastline20.taichung.longjing.Longjing1Activity</item>
-        <item>com.coastline20.taichung.longjing.Longjing2Activity</item>
-        <item>com.coastline20.taichung.longjing.Longjing3Activity</item>
-        <item>com.coastline20.taichung.longjing.Longjing4Activity</item>
+        <item>com.coastline20.activity.taichung.longjing.Longjing1Activity</item>
+        <item>com.coastline20.activity.taichung.longjing.Longjing2Activity</item>
+        <item>com.coastline20.activity.taichung.longjing.Longjing3Activity</item>
+        <item>com.coastline20.activity.taichung.longjing.Longjing4Activity</item>
     </string-array>
     <string-array name="longjing1_info">
         <item>*  屋頂立了很有地方特色的招牌</item>
@@ -679,6 +730,12 @@
     <string-array name="longjing4_info">
         <item>*  理想國藝術街位於東海大學附近的國際街，是一個集人文、藝術景觀和社區意識之大成的理想國社區</item>
         <item>*  在這一條沿著小斜坡而建的藝術街坊，體驗沿途的人文氣息，充滿個人特色、藝術氣息的商店，也有後現代主義式的咖啡店，以及室內裝飾佈置的小飾品店，大都充滿歐洲復古的氣氛，也有比較現代的摩登造型；另外還有許多各種個人化的商品店、咖啡館、茶藝館、陶藝館、唐裝服飾店等等</item>
+    </string-array>
+    <string-array name="longjing_food_activity">
+        <item>com.coastline20.activity.taichung.longjing.food.LongjingFoodBlogActivity</item>
+    </string-array>
+    <string-array name="longjing_food">
+        <item>美食部落格</item>
     </string-array>
 
 
@@ -707,12 +764,12 @@
         <item>郊山等級的步道</item>
     </string-array>
     <string-array name="dadu_spot_activity">
-        <item>com.coastline20.taichung.dadu.Dadu1Activity</item>
-        <item>com.coastline20.taichung.dadu.Dadu2Activity</item>
-        <item>com.coastline20.taichung.dadu.Dadu3Activity</item>
-        <item>com.coastline20.taichung.dadu.Dadu4Activity</item>
-        <item>com.coastline20.taichung.dadu.Dadu5Activity</item>
-        <item>com.coastline20.taichung.dadu.Dadu6Activity</item>
+        <item>com.coastline20.activity.taichung.dadu.Dadu1Activity</item>
+        <item>com.coastline20.activity.taichung.dadu.Dadu2Activity</item>
+        <item>com.coastline20.activity.taichung.dadu.Dadu3Activity</item>
+        <item>com.coastline20.activity.taichung.dadu.Dadu4Activity</item>
+        <item>com.coastline20.activity.taichung.dadu.Dadu5Activity</item>
+        <item>com.coastline20.activity.taichung.dadu.Dadu6Activity</item>
     </string-array>
     <string-array name="dadu1_info">
         <item>*  台鐵站名吉祥車票興起之後，大肚也搭上這股熱潮，發行了「大肚成功」的硬式車票，對想要懷孕的夫妻頗有吸引力</item>
@@ -736,6 +793,10 @@
     </string-array>
     <string-array name="dadu6_info">
         <item>*  郊山等級的步道，蜿蜒於大肚山的稜支線，因為海拔不高且坡度平緩，是一條老少咸宜的步道，加上離鬧區並不算太遠，離高速公路或快速道路也近，尤其大肚區側的入口也方便停車，是條適合闔家前來走走路運動一下的好地方</item>
+    </string-array>
+    <string-array name="dadu_food_activity">
+        <item>com.coastline20.activity.taichung.dadu.food.DaduFood1Activity</item>
+        <item>com.coastline20.activity.taichung.dadu.food.DaduFood2Activity</item>
     </string-array>
     <string-array name="dadu_food">
         <item>大肚公有零售市場</item>
@@ -763,8 +824,8 @@
         <item>追分成功、成功追婚</item>
     </string-array>
     <string-array name="zhuifen_spot_activity">
-        <item>com.coastline20.taichung.zhuifen.Zhuifen1Activity</item>
-        <item>com.coastline20.taichung.zhuifen.Zhuifen2Activity</item>
+        <item>com.coastline20.activity.taichung.zhuifen.Zhuifen1Activity</item>
+        <item>com.coastline20.activity.taichung.zhuifen.Zhuifen2Activity</item>
     </string-array>
     <string-array name="zhuifen1_info">
         <item>*  「追分」原為日文岔路的意思</item>
@@ -773,6 +834,9 @@
     </string-array>
     <string-array name="zhuifen2_info">
         <item>*  車站前設有一座追分許願池，來到這許個願吧，心誠則靈，祝福天下莘莘學子，追分成功金榜題名，祝福世間有情男女，成功追婚終成眷屬</item>
+    </string-array>
+    <string-array name="zhuifen_food_activity">
+    <item>com.coastline20.activity.taichung.zhuifen.food.ZhuifenFood1Activity</item>
     </string-array>
     <string-array name="zhuifen_food">
         <item>王田鵝肉</item>
