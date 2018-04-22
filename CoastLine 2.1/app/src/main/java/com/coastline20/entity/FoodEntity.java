@@ -1,10 +1,11 @@
 package com.coastline20.entity;
 
 public class FoodEntity {
-    private int info, image1, image2, foodNum, address;
+    private int food, info, image1, image2, foodNum, address;
     private int[] images;
 
-    public FoodEntity(int info, int foodNum, int image1, int image2, int address) {
+    public FoodEntity(int food, int info, int foodNum, int image1, int image2, int address) {
+        this.food = food;
         this.info = info;
         this.foodNum = foodNum - 1;
         this.address = address;
@@ -59,5 +60,13 @@ public class FoodEntity {
 
     public void setImages(int[] images) {
         this.images = images;
+    }
+
+    public int getFood() {
+        return food;
+    }
+
+    public void setFood(int food) {
+        this.food = food;
     }
 }

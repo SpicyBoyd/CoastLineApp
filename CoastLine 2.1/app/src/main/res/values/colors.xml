@@ -4,6 +4,11 @@
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorAccent">#448AFF</color>
     <color name="colorLight">#bbdefb</color>
+    <color name="colorLighter">#eeffff</color>
+    <color name="colorSecondary">#ffa000</color>
+    <color name="colorSecondaryDark">#c67100</color>
+    <color name="colorSecondaryLight">#fff9c4</color>
+    <color name="colorSecondaryLighter">#fffde7</color>
 
     <!--activity_welcome-->
     <color name="welcome_text1">#e254ff</color>

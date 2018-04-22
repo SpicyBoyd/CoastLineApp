@@ -8,7 +8,7 @@
     android:padding="15dp"
     app:cardBackgroundColor="@color/colorLight"
     app:cardCornerRadius="28dp"
-    app:cardElevation="15dp">
+    app:cardElevation="5dp">
 
     <ImageView
         android:id="@+id/photo_image"

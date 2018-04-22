@@ -12,6 +12,7 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.coastline20.adapter.FoodInfoAdapter;
 import com.coastline20.adapter.FoodPagerAdapter;
@@ -25,13 +26,16 @@ public class HoulongFood1Activity extends AppCompatActivity {
     private final int HOME_AD_RESULT = 1;
     private RecyclerView recyclerView;
     private FoodEntity foodEntity;
+    private TextView textView;
 
     private void init() {
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         indexContainer = (LinearLayout) findViewById(R.id.index_container);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        textView = (TextView) findViewById(R.id.food_title);
 
         foodEntity = new FoodEntity(
+                R.array.houlong_food,
                 R.array.houlong_food_info,
                 1,
                 R.drawable.houlongfood1_1,
@@ -46,6 +50,7 @@ public class HoulongFood1Activity extends AppCompatActivity {
 
         init();
         initView();
+        textView.setText(getResources().getStringArray(foodEntity.getFood())[foodEntity.getFoodNum()]);
         recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL));
         recyclerView.setAdapter(new FoodInfoAdapter(
                 getResources().getStringArray(foodEntity.getInfo())[foodEntity.getFoodNum()],

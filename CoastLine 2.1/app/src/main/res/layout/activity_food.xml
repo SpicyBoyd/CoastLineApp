@@ -12,7 +12,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_scrollFlags="scroll|snap">
+            app:layout_scrollFlags="scroll|snap"
+            android:background="@color/colorSecondaryLight">
 
             <android.support.v4.view.ViewPager
                 android:id="@+id/view_pager"
@@ -32,11 +33,29 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:id="@+id/food_title"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/colorPrimary"
+            android:background="@color/colorSecondaryDark"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:textColor="@android:color/white"
+            android:paddingTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
     <!-- 浮動功能按鈕(FAB)物件 -->
     <!-- app:layout_anchor：定位元件 -->
@@ -47,7 +66,7 @@
         android:layout_margin="16dp"
         android:onClick="mapGuide"
         android:src="@drawable/map_guide_btn"
-        app:backgroundTint="@android:color/white"
+        app:backgroundTint="@color/colorSecondary"
         app:elevation="6dp"
         app:fabSize="normal"
         app:layout_anchor="@id/recycler_view"

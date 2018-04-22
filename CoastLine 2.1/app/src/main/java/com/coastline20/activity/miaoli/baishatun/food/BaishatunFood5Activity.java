@@ -12,6 +12,7 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.coastline20.R;
 import com.coastline20.adapter.FoodInfoAdapter;
@@ -25,13 +26,16 @@ public class BaishatunFood5Activity extends AppCompatActivity {
     private final int HOME_AD_RESULT = 1;
     private RecyclerView recyclerView;
     private FoodEntity foodEntity;
+    private TextView textView;
 
     private void init() {
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         indexContainer = (LinearLayout) findViewById(R.id.index_container);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        textView = (TextView) findViewById(R.id.food_title);
 
         foodEntity = new FoodEntity(
+                R.array.baishatun_food,
                 R.array.baishatun_food_info,
                 5,
                 R.drawable.baishatunfood5_1,
@@ -46,6 +50,7 @@ public class BaishatunFood5Activity extends AppCompatActivity {
 
         init();
         initView();
+        textView.setText(getResources().getStringArray(foodEntity.getFood())[foodEntity.getFoodNum()]);
         recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL));
         recyclerView.setAdapter(new FoodInfoAdapter(
                 getResources().getStringArray(foodEntity.getInfo())[foodEntity.getFoodNum()],
@@ -76,7 +81,7 @@ public class BaishatunFood5Activity extends AppCompatActivity {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 refreshPoint(position % 2);
-                if (handler.hasMessages(HOME_AD_RESULT)){
+                if (handler.hasMessages(HOME_AD_RESULT)) {
                     handler.removeMessages(HOME_AD_RESULT);
                 }
                 handler.sendEmptyMessageDelayed(HOME_AD_RESULT, 3000);
@@ -89,7 +94,7 @@ public class BaishatunFood5Activity extends AppCompatActivity {
 
             @Override
             public void onPageScrollStateChanged(int state) {
-                if(ViewPager.SCROLL_STATE_DRAGGING == state && handler.hasMessages(HOME_AD_RESULT)){
+                if (ViewPager.SCROLL_STATE_DRAGGING == state && handler.hasMessages(HOME_AD_RESULT)) {
                     handler.removeMessages(HOME_AD_RESULT);
                 }
             }
@@ -97,7 +102,7 @@ public class BaishatunFood5Activity extends AppCompatActivity {
 
         viewPager.setAdapter(new FoodPagerAdapter(this, foodEntity.getImages()));
         addIndicatorImageViews(2);
-        viewPager.setCurrentItem(2*1000, false);
+        viewPager.setCurrentItem(2 * 1000, false);
         handler.sendEmptyMessageDelayed(HOME_AD_RESULT, 3000);
     }
 

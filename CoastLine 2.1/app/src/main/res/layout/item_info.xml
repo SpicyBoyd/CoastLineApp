@@ -7,7 +7,7 @@
     android:layout_margin="15dp"
     android:padding="15dp"
     app:cardBackgroundColor="@color/colorLight"
-    app:cardElevation="15dp">
+    app:cardElevation="5dp">
 
     <TextView
         android:id="@+id/info"

@@ -6,8 +6,9 @@
     android:layout_height="wrap_content"
     android:layout_margin="15dp"
     android:padding="15dp"
+    app:cardCornerRadius="10dp"
     app:cardBackgroundColor="@color/colorLight"
-    app:cardElevation="15dp">
+    app:cardElevation="5dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +20,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="#bbdefb"
+            android:layout_marginTop="6dp"
+            android:background="@color/colorSecondaryLight"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView

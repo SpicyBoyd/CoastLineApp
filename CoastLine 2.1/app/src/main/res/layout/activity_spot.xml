@@ -41,7 +41,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorLight"
+        android:background="@color/colorLighter"
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
@@ -49,7 +49,8 @@
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:tabIndicatorColor="@android:color/holo_blue_light"
+            app:tabBackground="@color/colorSecondaryLighter"
+            app:tabIndicatorColor="@color/colorSecondary"
             app:tabMode="fixed"
             app:tabSelectedTextColor="@android:color/black"
             app:tabTextColor="@android:color/darker_gray" />
@@ -68,9 +69,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:background="@color/colorSecondaryLighter"
         android:onClick="mapGuide"
         android:src="@drawable/map_guide_btn"
-        app:backgroundTint="@android:color/white"
+        app:backgroundTint="@color/colorSecondary"
         app:elevation="6dp"
         app:fabSize="normal"
         app:layout_anchor="@id/view_pager"
