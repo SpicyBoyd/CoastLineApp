@@ -6,13 +6,17 @@
             android:checked="true"
             android:icon="@drawable/ic_menu_home"
             android:title="@string/home" />
-        <!--<item-->
-            <!--android:id="@+id/miaoli"-->
-            <!--android:icon="@drawable/ic_label_outline_black_24dp"-->
-            <!--android:title="@string/miaoli" />-->
-        <!--<item-->
-            <!--android:id="@+id/taichung"-->
-            <!--android:icon="@drawable/ic_label_outline_black_24dp"-->
-            <!--android:title="@string/taichung" />-->
+        <item
+            android:id="@+id/timetable"
+            android:icon="@drawable/ic_train_white_24dp"
+            android:title="火車時刻表" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_search_white_24dp"
+            android:title="地圖" />
+        <item
+            android:id="@+id/firebase"
+            android:icon="@drawable/if_google_firebase_1175544"
+            android:title="Firebase" />
     </group>
 </menu>

@@ -1,6 +1,7 @@
 package com.coastline20.activity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
@@ -77,11 +78,16 @@ public class MiaoliStationsActivity extends AppCompatActivity {
                     startActivity(intent);
                     return true;
                 }
-//                if (id == R.id.taichung_stations) {
-//                    Intent intent = new Intent().setClass(MiaoliStationsActivity.this, TaichungStationsActivity.class);
-//                    startActivity(intent);
-//                    return true;
-//                }
+                if (id == R.id.timetable) {
+                    Intent intent = new Intent().setClass(MiaoliStationsActivity.this, TimetableActivity.class);
+                    startActivity(intent);
+                    return true;
+                }
+                if (id == R.id.map) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q="));
+                    startActivity(intent);
+                    return true;
+                }
                 return false;
             }
         });
