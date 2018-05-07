@@ -115,7 +115,7 @@
         <activity android:name=".activity.taichung.dadu.food.DaduFood1Activity" />
         <activity android:name=".activity.taichung.dadu.food.DaduFood2Activity" />
         <activity android:name=".activity.taichung.zhuifen.food.ZhuifenFood1Activity" />
-        <activity android:name=".activity.TimetableActivity"></activity>
+        <activity android:name=".activity.WebViewActivity"></activity>
     </application>
 
 </manifest>

@@ -17,4 +17,15 @@
 
     <!--activity_spot-->
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <!--url-->
+    <string name="timetable">http://twtraffic.tra.gov.tw/twrail/mobile/home.aspx</string>
+    <string name="blogger">https://spicyboyd.blogspot.tw/</string>
+    <string name="tongxiao_food_blog">https://nanai.tw/2015-08-16-540/</string>
+    <string name="yuanli_food_blog1">http://m.xuite.net/blog/nakobe/wretch/147031190</string>
+    <string name="yuanli_food_blog2">https://ikiwi.tw/2014-05-21-477/</string>
+    <string name="dajia_food_blog">https://zineblog.com.tw/blog/post/37206026</string>
+    <string name="longjing_food_blog">http://dream3s.pixnet.net/blog/category/957948</string>
+    <string name="qingshui_food_blog">http://www.twgreatdaily.com/cat130/node927748</string>
+    <string name="shalu_food_blog">http://dream3s.pixnet.net/blog/post/198072405-%5B%E5%8F%B0%E4%B8%AD%E6%B2%99%E9%B9%BF%5D%E6%B5%B7%E7%B7%9A%E6%B2%99%E9%B9%BF%E6%8E%A5%E8%BF%91200%E5%AE%B6%E7%BE%8E%E9%A3%9F%E5%B0%8F%E5%90%83%E9%A4%90%E5%BB%B3%E6%87%B6</string>
 </resources>
