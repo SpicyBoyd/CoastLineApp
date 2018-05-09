@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.coastline20.R;
+import com.coastline20.activity.firebase.FirebaseActivity;
 import com.coastline20.adapter.StationPagerAdapter;
 import com.coastline20.fragment.StationFragment;
 
@@ -92,6 +93,11 @@ public class MiaoliStationsActivity extends AppCompatActivity {
                 if (id == R.id.blogger){
                     Intent intent = new Intent().setClass(MiaoliStationsActivity.this, WebViewActivity.class);
                     intent.putExtra("url", getString(R.string.blogger));
+                    startActivity(intent);
+                    return true;
+                }
+                if (id == R.id.firebase) {
+                    Intent intent = new Intent().setClass(MiaoliStationsActivity.this, FirebaseActivity.class);
                     startActivity(intent);
                     return true;
                 }

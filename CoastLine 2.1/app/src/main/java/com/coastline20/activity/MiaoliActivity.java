@@ -16,6 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.widget.Toast;
 
 import com.coastline20.R;
+import com.coastline20.activity.firebase.FirebaseActivity;
 
 public class MiaoliActivity extends AppCompatActivity {
     private NumberPicker numberPicker;
@@ -86,6 +87,11 @@ public class MiaoliActivity extends AppCompatActivity {
                 if (id == R.id.blogger){
                     Intent intent = new Intent().setClass(MiaoliActivity.this, WebViewActivity.class);
                     intent.putExtra("url", getString(R.string.blogger));
+                    startActivity(intent);
+                    return true;
+                }
+                if (id == R.id.firebase) {
+                    Intent intent = new Intent().setClass(MiaoliActivity.this, FirebaseActivity.class);
                     startActivity(intent);
                     return true;
                 }

@@ -28,4 +28,35 @@
     <string name="longjing_food_blog">http://dream3s.pixnet.net/blog/category/957948</string>
     <string name="qingshui_food_blog">http://www.twgreatdaily.com/cat130/node927748</string>
     <string name="shalu_food_blog">http://dream3s.pixnet.net/blog/post/198072405-%5B%E5%8F%B0%E4%B8%AD%E6%B2%99%E9%B9%BF%5D%E6%B5%B7%E7%B7%9A%E6%B2%99%E9%B9%BF%E6%8E%A5%E8%BF%91200%E5%AE%B6%E7%BE%8E%E9%A3%9F%E5%B0%8F%E5%90%83%E9%A4%90%E5%BB%B3%E6%87%B6</string>
+
+    <!--Firebase-->
+    <string name="action_sign_in_short">註冊</string>
+    <string name="email">信箱</string>
+    <string name="minimum_password">密碼太短, 請輸入最少6個字元!</string>
+    <string name="auth_failed">登入失敗，請檢查你的電子信箱或密碼</string>
+    <string name="change_email">更改信箱</string>
+    <string name="change_password">更改密碼</string>
+    <string name="send_password_reset_email">發送密碼重設電子郵件</string>
+    <string name="remove_user">移除使用者</string>
+    <string name="new_pass">新密碼</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">登入</string>
+    <string name="hint_email">信箱</string>
+    <string name="hint_password">密碼</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">登入</string>
+    <string name="btn_link_to_register">還不是會員?現在開始註冊!</string>
+    <string name="btn_link_to_login">已經註冊，現在登入!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">忘記你的密碼?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< 返回]]></string>
+    <string name="hint_new_email">新信箱</string>
+    <string name="btn_change_email">更改信箱</string>
+    <string name="btn_change_password">更改密碼</string>
+    <string name="btn_send">送出</string>
+    <string name="btn_remove">移除</string>
+    <string name="btn_sign_out">登出</string>
+    <string name="lbl_forgot_password">忘記密碼?</string>
+    <string name="forgot_password_msg">我們需要你的註冊信箱，送出你的更改密碼訊息。</string>
 </resources>
