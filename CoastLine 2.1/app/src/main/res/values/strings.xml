@@ -33,11 +33,11 @@
     <string name="action_sign_in_short">註冊</string>
     <string name="email">信箱</string>
     <string name="minimum_password">密碼太短, 請輸入最少6個字元!</string>
-    <string name="auth_failed">登入失敗，請檢查你的電子信箱或密碼</string>
+    <string name="auth_failed"><div style="text-align:center;">登入失敗\n請檢查你的電子信箱或密碼</div></string>
     <string name="change_email">更改信箱</string>
     <string name="change_password">更改密碼</string>
-    <string name="send_password_reset_email">發送密碼重設電子郵件</string>
-    <string name="remove_user">移除使用者</string>
+    <string name="send_password_reset_email">密碼重設</string>
+    <string name="remove_user">刪除帳號</string>
     <string name="new_pass">新密碼</string>
     <string name="title_activity_profile">Firebase</string>
     <string name="title_activity_login">登入</string>
@@ -58,5 +58,5 @@
     <string name="btn_remove">移除</string>
     <string name="btn_sign_out">登出</string>
     <string name="lbl_forgot_password">忘記密碼?</string>
-    <string name="forgot_password_msg">我們需要你的註冊信箱，送出你的更改密碼訊息。</string>
+    <string name="forgot_password_msg"><div style="text-align:center;">我們需要你的註冊信箱\n送出你的更改密碼訊息</div></string>
 </resources>
