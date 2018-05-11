@@ -1,4 +1,4 @@
-package com.coastline20.activity.miaoli.yuanli.food;
+package com.coastline20.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.webkit.WebViewClient;
 
 import com.coastline20.R;
 
-public class YuanliFoodBlog1Activity extends AppCompatActivity {
+public class WebViewActivity extends AppCompatActivity {
     private WebView webView;
 
     @Override
@@ -18,7 +18,7 @@ public class YuanliFoodBlog1Activity extends AppCompatActivity {
 
         webView = (WebView) findViewById(R.id.web_view);
         webView.getSettings().setJavaScriptEnabled(true); //与Javascript交互
-        webView.loadUrl(getString(R.string.yuanli_food_blog1));
+        webView.loadUrl(this.getIntent().getStringExtra("url"));
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {

@@ -15,6 +15,10 @@
             android:icon="@drawable/ic_search_white_24dp"
             android:title="地圖" />
         <item
+            android:id="@+id/blogger"
+            android:icon="@drawable/ic_library_books_white_24dp"
+            android:title="Blogger" />
+        <item
             android:id="@+id/firebase"
             android:icon="@drawable/if_google_firebase_1175544"
             android:title="Firebase" />

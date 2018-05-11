@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.coastline20.R;
+import com.coastline20.activity.firebase.FirebaseActivity;
 import com.coastline20.adapter.StationPagerAdapter;
 import com.coastline20.fragment.StationFragment;
 
@@ -79,12 +80,24 @@ public class TaichungStationsActivity extends AppCompatActivity {
                     return true;
                 }
                 if (id == R.id.timetable) {
-                    Intent intent = new Intent().setClass(TaichungStationsActivity.this, TimetableActivity.class);
+                    Intent intent = new Intent().setClass(TaichungStationsActivity.this, WebViewActivity.class);
+                    intent.putExtra("url", getString(R.string.timetable));
                     startActivity(intent);
                     return true;
                 }
                 if (id == R.id.map) {
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q="));
+                    startActivity(intent);
+                    return true;
+                }
+                if (id == R.id.blogger){
+                    Intent intent = new Intent().setClass(TaichungStationsActivity.this, WebViewActivity.class);
+                    intent.putExtra("url", getString(R.string.blogger));
+                    startActivity(intent);
+                    return true;
+                }
+                if (id == R.id.firebase) {
+                    Intent intent = new Intent().setClass(TaichungStationsActivity.this, FirebaseActivity.class);
                     startActivity(intent);
                     return true;
                 }

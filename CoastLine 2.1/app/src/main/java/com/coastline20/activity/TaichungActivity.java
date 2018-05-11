@@ -16,6 +16,7 @@ import android.widget.NumberPicker;
 import android.widget.Toast;
 
 import com.coastline20.R;
+import com.coastline20.activity.firebase.FirebaseActivity;
 
 public class TaichungActivity extends AppCompatActivity {
     private NumberPicker numberPicker;
@@ -73,12 +74,24 @@ public class TaichungActivity extends AppCompatActivity {
                     return true;
                 }
                 if (id == R.id.timetable) {
-                    Intent intent = new Intent().setClass(TaichungActivity.this, TimetableActivity.class);
+                    Intent intent = new Intent().setClass(TaichungActivity.this, WebViewActivity.class);
+                    intent.putExtra("url", getString(R.string.timetable));
                     startActivity(intent);
                     return true;
                 }
                 if (id == R.id.map) {
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q="));
+                    startActivity(intent);
+                    return true;
+                }
+                if (id == R.id.blogger){
+                    Intent intent = new Intent().setClass(TaichungActivity.this, WebViewActivity.class);
+                    intent.putExtra("url", getString(R.string.blogger));
+                    startActivity(intent);
+                    return true;
+                }
+                if (id == R.id.firebase) {
+                    Intent intent = new Intent().setClass(TaichungActivity.this, FirebaseActivity.class);
                     startActivity(intent);
                     return true;
                 }

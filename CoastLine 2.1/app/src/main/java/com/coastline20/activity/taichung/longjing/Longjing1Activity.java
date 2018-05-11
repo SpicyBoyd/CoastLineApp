@@ -41,6 +41,8 @@ public class Longjing1Activity extends AppCompatActivity {
                 new int[]{R.drawable.longjingspot1_1,
                         R.drawable.longjingspot1_2, R.drawable.longjingspot1_3, R.drawable.longjingspot1_4},
                 R.array.longjing1_info,
+                R.array.longjing_food,
+                R.array.longjing_food_activity,
                 R.array.longjing_spot_address);
         titles = getResources().getStringArray(entity.getTabTitle());
     }

@@ -3,6 +3,10 @@
     package="com.coastline20">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -115,7 +119,24 @@
         <activity android:name=".activity.taichung.dadu.food.DaduFood1Activity" />
         <activity android:name=".activity.taichung.dadu.food.DaduFood2Activity" />
         <activity android:name=".activity.taichung.zhuifen.food.ZhuifenFood1Activity" />
-        <activity android:name=".activity.TimetableActivity"></activity>
+        <activity android:name=".activity.WebViewActivity" />
+
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.firebase.FirebaseActivity" />
+        <activity android:name=".activity.firebase.LoginActivity" />
+        <activity android:name=".activity.firebase.Notifications" />
+        <activity android:name=".activity.firebase.ResetPasswordActivity" />
+        <activity android:name=".activity.firebase.SignupActivity"></activity>
     </application>
 
 </manifest>
