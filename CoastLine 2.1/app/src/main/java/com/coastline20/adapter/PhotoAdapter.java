@@ -17,6 +17,7 @@ import java.io.InputStream;
 
 public class PhotoAdapter extends RecyclerView.Adapter<PhotoAdapter.ViewHolder> {
     private int[] images;
+    private Toast toast;
 
     public PhotoAdapter(int[] images) {
         this.images = images;
@@ -47,10 +48,13 @@ public class PhotoAdapter extends RecyclerView.Adapter<PhotoAdapter.ViewHolder> 
                 ImageView imageView = new ImageView(v.getContext());
                 imageView.setImageBitmap(bitmapImage);
 
-                Toast toast = new Toast(v.getContext());
+                // 避免 toast 累加時間
+                if (toast == null) {
+                    toast = new Toast(v.getContext());
+                }
                 toast.setView(imageView);
                 // 使圖片width充滿畫面
-                toast.setGravity(Gravity.FILL_HORIZONTAL|Gravity.FILL_VERTICAL, 0, 0);
+                toast.setGravity(Gravity.FILL_HORIZONTAL | Gravity.FILL_VERTICAL, 0, 0);
                 toast.setDuration(Toast.LENGTH_SHORT);
                 toast.show();
             }
